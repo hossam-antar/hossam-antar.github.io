@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Hossam Hussein Antar – Senior Civil Engineer and Technical Manager in water transmission, pump stations and networks across Egypt, Saudi Arabia and Oman.">
+<meta property="og:title" content="Hossam Hussein Antar – Senior Civil Engineer, Water Infrastructure">
+<meta property="og:description" content="20 years delivering pipelines, pump stations and reservoirs in Egypt, Saudi Arabia and Oman.">
+<meta property="og:image" content="https://hossam-antar.github.io/img/hero-mirbat.jpg">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Hossam Hussein Antar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout: a pipeline drawing. Full-bleed site photo hero, then sections read like a longitudinal profile: chainage labels, a flowing career line, a dot-matrix map of the three countries. */
+:root{
+  --bg:#F3F6F8; --surface:#FFFFFF; --ink:#0D1B2A; --muted:#566576; --line:#D5DEE6;
+  --accent:#1B5FD1;       /* epoxy-blue, like the DI fittings on site */
+  --accent-soft:#E3ECFB;
+  --sand:#2E8FC4;         /* Dhofar earth */
+  --sand-soft:#E3F2FB;
+  --map-other:#C9D3DD;
+  --photo-ink:#FFFFFF; --deep:#0D1B2A; --on-deep:#EEF3F8; --photo-shade:rgba(8,18,30,.72);
+  --f-display:"Archivo","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",Roboto,Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --max:1160px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0A1520; --surface:#111F2D; --ink:#E7EEF5; --muted:#9AAABB; --line:#22364A;
+  --accent:#6AA4FF; --accent-soft:#16304F; --sand:#6CC4EA; --sand-soft:#12324A; --map-other:#24384C; --deep:#050C14;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0A1520; --surface:#111F2D; --ink:#E7EEF5; --muted:#9AAABB; --line:#22364A;
+  --accent:#6AA4FF; --accent-soft:#16304F; --sand:#6CC4EA; --sand-soft:#12324A; --map-other:#24384C; --deep:#050C14;
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--max);margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;font-stretch:78%;letter-spacing:-.01em;line-height:1.05;text-transform:uppercase}
+h3{font-size:22px;font-weight:700;font-stretch:88%;line-height:1.2}
+p{margin:0}
+.ch{font-family:var(--f-mono);font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--sand);display:flex;align-items:center;gap:10px}
+.ch::after{content:"";height:1px;background:var(--line);flex:1;max-width:120px}
+section{padding-block:clamp(56px,8vw,96px)}
+.sec-head{display:grid;gap:14px;margin-bottom:clamp(28px,4vw,44px);max-width:760px}
+.sec-head p{color:var(--muted);font-size:18px}
+
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:58px}
+.mark{font-family:var(--f-display);font-weight:800;font-stretch:80%;font-size:18px;letter-spacing:.04em;text-decoration:none;text-transform:uppercase;white-space:nowrap}
+.mark span{color:var(--accent)}
+.nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0;overflow-x:auto;scrollbar-width:none}
+.nav ul::-webkit-scrollbar{display:none}
+.nav ul a{display:block;padding:8px 12px;border-radius:999px;text-decoration:none;font-size:15px;font-weight:600;color:var(--muted);white-space:nowrap}
+.nav ul a:hover{color:var(--ink);background:var(--accent-soft)}
+@media (max-width:720px){.nav ul li:not(.keep){display:none}}
+
+/* hero */
+.hero{position:relative;color:var(--photo-ink);overflow:hidden;isolation:isolate;padding:0}
+.hero-img{position:absolute;inset:0;z-index:-2;background:url(img/hero-mirbat.jpg) center 40%/cover no-repeat}
+@media (prefers-reduced-motion:no-preference){.hero-img{animation:drift 26s ease-in-out infinite alternate}}
+@keyframes drift{from{transform:scale(1.04)}to{transform:scale(1.12) translate(-1.5%,-1%)}}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(12,30,58,.92) 0%,rgba(12,30,58,.70) 48%,rgba(12,30,58,.35) 100%),linear-gradient(0deg,rgba(12,30,58,.55),transparent 40%)}
+.hero .wrap{padding-block:clamp(56px,9vw,110px) clamp(36px,5vw,56px);display:grid;grid-template-columns:auto 1fr;gap:clamp(22px,4vw,44px);align-items:center}
+.portrait{width:clamp(132px,17vw,210px);aspect-ratio:1;border-radius:50%;background:url(img/portrait.jpg) center/cover;border:4px solid rgba(255,255,255,.9);box-shadow:0 0 0 10px rgba(255,255,255,.12),0 18px 40px rgba(0,0,0,.35);max-width:100%}
+.hero-copy{min-width:0;display:grid;gap:14px}
+.hero .eyebrow{font-family:var(--f-mono);font-size:13px;letter-spacing:.12em;text-transform:uppercase;opacity:.85}
+.hero h1{font-size:clamp(40px,7vw,86px);font-weight:900;font-stretch:72%;line-height:.92;text-transform:uppercase;letter-spacing:-.01em}
+.hero .role{font-family:var(--f-display);font-stretch:95%;font-weight:600;font-size:clamp(18px,2.2vw,24px);color:#BFD6FF}
+.hero .lead{font-size:clamp(17px,1.7vw,20px);max-width:58ch;opacity:.95}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:15px;opacity:.9}
+.hero .meta span{display:inline-flex;align-items:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:#7CE38B;box-shadow:0 0 0 4px rgba(124,227,139,.25)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:999px;font-weight:700;text-decoration:none;font-size:16px;border:1.5px solid transparent;cursor:pointer;font-family:var(--f-body)}
+.btn.primary{background:#fff;color:#0D1B2A}
+.btn.primary:hover{background:#DCE8FF}
+.btn.ghost{border-color:rgba(255,255,255,.6);color:#fff}
+.btn.ghost:hover{background:rgba(255,255,255,.12)}
+@media (max-width:640px){.hero .wrap{grid-template-columns:1fr}.portrait{width:120px}}
+
+/* stats band */
+.stats{background:var(--surface);border-bottom:1px solid var(--line);padding:0}
+.stats .wrap{display:grid;grid-template-columns:repeat(5,minmax(0,1fr))}
+.stat{padding:22px 18px 22px 0;display:grid;gap:4px;align-content:start;border-right:1px solid var(--line);padding-left:18px}
+.stat:first-child{padding-left:0}
+.stat:last-child{border-right:0}
+.stat b{font-family:var(--f-display);font-weight:800;font-stretch:75%;font-size:clamp(30px,3.6vw,44px);line-height:1;color:var(--accent);font-variant-numeric:tabular-nums}
+.stat b small{font-size:.5em;font-weight:700;margin-left:2px}
+.stat span{font-size:14.5px;color:var(--muted);line-height:1.35}
+@media (max-width:900px){.stats .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.stat{border-right:0;border-bottom:1px solid var(--line);padding-left:0}.stat:nth-child(odd){padding-right:14px}.stat:last-child{grid-column:1/-1;border-bottom:0}}
+
+/* profile */
+.profile-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(28px,5vw,64px);align-items:start}
+.profile-grid p.big{font-size:clamp(19px,1.9vw,22px);line-height:1.55;max-width:62ch}
+.profile-grid p.big strong{color:var(--accent);font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips li{list-style:none;padding:7px 13px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:15px;font-weight:600}
+.chips{padding:0;margin:0}
+.comp h3{font-size:15px;font-family:var(--f-mono);font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.comp + .comp{margin-top:26px}
+@media (max-width:860px){.profile-grid{grid-template-columns:1fr}}
+
+/* projects */
+.projects{background:var(--surface);border-block:1px solid var(--line)}
+.feature{display:grid;grid-template-columns:1.1fr 1fr;gap:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--bg);margin-bottom:22px}
+.feature .ph{min-height:320px;background-size:cover;background-position:center;position:relative}
+.feature .ph .tag{position:absolute;left:16px;top:16px;background:var(--accent);color:#fff;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:6px}
+.feature .body{padding:clamp(22px,3vw,36px);display:grid;gap:14px;align-content:start;min-width:0}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:4px 0}
+.facts div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.facts dt{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:2px 0 0;font-weight:700;font-size:15.5px;line-height:1.3}
+.where{font-family:var(--f-mono);font-size:13px;color:var(--sand);letter-spacing:.06em;text-transform:uppercase}
+ul.ticks{margin:0;padding:0;display:grid;gap:7px}
+ul.ticks li{list-style:none;padding-left:22px;position:relative;font-size:16px;line-height:1.45}
+ul.ticks li::before{content:"";position:absolute;left:0;top:.5em;width:10px;height:10px;border:2.5px solid var(--accent);border-radius:50%}
+.sub{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.award{display:flex;gap:12px;align-items:center;background:var(--sand-soft);border-radius:12px;padding:10px 12px;font-size:15px}
+.award img{width:46px;height:58px;object-fit:cover;border-radius:6px;flex:none}
+.award b{display:block;font-size:15.5px}
+@media (max-width:900px){.feature{grid-template-columns:1fr}.feature .ph{min-height:240px}.facts{grid-template-columns:1fr 1fr}}
+
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.card{border:1px solid var(--line);border-radius:16px;background:var(--bg);overflow:hidden;display:flex;flex-direction:column}
+.card .ph{aspect-ratio:16/8;background-size:cover;background-position:center;max-width:100%}
+.card .ph.none{background:linear-gradient(135deg,var(--accent-soft),var(--sand-soft));display:grid;place-items:center;font-family:var(--f-mono);font-size:13px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.card .body{padding:22px;display:grid;gap:10px;align-content:start;min-width:0}
+.card .role{font-weight:700;color:var(--accent);font-size:15px}
+.card.wide{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}
+.card.wide .ph{aspect-ratio:auto;min-height:200px}
+@media (max-width:760px){.cards{grid-template-columns:1fr}.card.wide{grid-template-columns:1fr}.card.wide .ph{aspect-ratio:16/8;min-height:0}}
+
+/* career line */
+.career{position:relative}
+.line{position:relative;display:grid;gap:0;padding-left:46px}
+.line::before{content:"";position:absolute;left:13px;top:8px;bottom:8px;width:10px;border-radius:6px;background:var(--accent-soft)}
+.line::after{content:"";position:absolute;left:16px;top:12px;bottom:12px;width:4px;border-radius:4px;background:repeating-linear-gradient(180deg,var(--accent) 0 14px,transparent 14px 26px);opacity:.85}
+@media (prefers-reduced-motion:no-preference){.line::after{animation:flow 1.6s linear infinite}}
+@keyframes flow{from{background-position:0 0}to{background-position:0 26px}}
+.stop{position:relative;padding:0 0 30px;display:grid;grid-template-columns:150px 1fr;gap:6px 26px}
+.stop:last-child{padding-bottom:0}
+.stop::before{content:"";position:absolute;left:-41px;top:5px;width:20px;height:20px;border-radius:50%;background:var(--surface);border:4px solid var(--accent);z-index:1}
+.stop.now::before{background:var(--accent);box-shadow:0 0 0 6px color-mix(in srgb,var(--accent) 25%,transparent)}
+.stop.edu::before{border-color:var(--sand)}
+.when{font-family:var(--f-mono);font-size:13.5px;color:var(--muted);padding-top:3px;font-variant-numeric:tabular-nums}
+.what{min-width:0;display:grid;gap:6px}
+.what h3{font-size:21px}
+.org{font-weight:700;color:var(--ink)}
+.org small{font-weight:400;color:var(--muted);font-size:15px}
+.what p{color:var(--muted);font-size:16px;max-width:70ch}
+@media (max-width:640px){.stop{grid-template-columns:1fr}.line{padding-left:40px}}
+
+/* map */
+.map-wrap{display:grid;grid-template-columns:1.6fr 1fr;gap:clamp(20px,3vw,36px);align-items:start}
+.map{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:12px;overflow:hidden}
+.map svg{display:block;width:100%;height:auto}
+.map .d-x{stroke:var(--map-other)}
+.map .d-c{stroke:var(--accent);opacity:.55}
+.pin circle.halo{fill:var(--sand);opacity:.22}
+.pin circle.core{fill:var(--sand);stroke:var(--surface);stroke-width:2.5}
+.pin text{font-family:var(--f-mono);font-size:13px;fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:4px;stroke-linejoin:round}
+.pin.on circle.halo{opacity:.45}
+.pin.on circle.core{fill:var(--accent)}
+.ctry{font-family:var(--f-display);font-weight:800;font-stretch:75%;font-size:20px;letter-spacing:.14em;fill:var(--accent);opacity:.9}
+.places{display:grid;gap:8px;margin:0;padding:0}
+.places li{list-style:none}
+.places button{width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;font:inherit;color:inherit;display:grid;gap:2px}
+.places button:hover,.places button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.places b{font-size:16px}
+.places span{font-size:14px;color:var(--muted)}
+@media (max-width:860px){.map-wrap{grid-template-columns:1fr}}
+
+/* gallery */
+.gallery{background:var(--deep);color:var(--on-deep)}
+:root .gallery .ch{color:var(--sand)}
+.gallery h2{color:var(--on-deep)}
+.gallery .sec-head p{color:color-mix(in srgb,var(--on-deep) 70%,transparent)}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(260px,32%);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;scrollbar-color:var(--accent) transparent}
+.strip figure{margin:0;scroll-snap-align:start;display:grid;gap:8px}
+.strip img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;display:block}
+.strip figcaption{font-size:14px;color:color-mix(in srgb,var(--on-deep) 75%,transparent);line-height:1.4}
+@media (max-width:640px){.strip{grid-auto-columns:82%}}
+
+/* skills */
+.skills-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;display:grid;gap:14px;align-content:start}
+.panel h3{font-size:15px;font-family:var(--f-mono);font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.kv{display:grid;gap:10px;margin:0}
+.kv div{display:grid;gap:1px}
+.kv dt{font-weight:700}
+.kv dd{margin:0;color:var(--muted);font-size:15.5px}
+@media (max-width:900px){.skills-grid{grid-template-columns:1fr}}
+
+/* contact */
+.contact{background:var(--accent);color:#fff}
+.contact h2{color:#fff}
+.contact .ch{color:#fff;opacity:.85}
+.contact .ch::after{background:rgba(255,255,255,.4)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,48px);align-items:center}
+.contact-grid > p{font-size:clamp(19px,2vw,23px);max-width:46ch}
+.c-list{display:grid;gap:10px;margin:0;padding:0}
+.c-list li{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:12px;padding:12px 14px;min-width:0}
+.c-list .v{min-width:0;display:grid}
+.c-list small{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+.c-list b{font-size:17px;overflow-wrap:anywhere;user-select:all}
+.copy{flex:none;background:#fff;color:#0D1B2A;border:0;border-radius:999px;padding:7px 14px;font-weight:700;font-size:14px;cursor:pointer;font-family:var(--f-body)}
+.copy:hover{background:#DCE8FF}
+@media (max-width:860px){.contact-grid{grid-template-columns:1fr}}
+footer{padding-block:22px;font-size:14px;color:var(--muted);text-align:center}
+</style>
+
+</head>
+<body>
+<nav class="nav" aria-label="Sections">
+  <div class="wrap">
+    <a class="mark" href="#top">H. Hussein <span>Antar</span></a>
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li class="keep"><a href="#projects">Projects</a></li>
+      <li><a href="#career">Career</a></li>
+      <li><a href="#map">Map</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li class="keep"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-img" role="img" aria-label="Aerial view of the Mirbat reservoir under construction, with the Arabian Sea behind"></div>
+  <div class="wrap">
+    <div class="portrait" role="img" aria-label="Portrait of Hossam Hussein Antar"></div>
+    <div class="hero-copy">
+      <div class="eyebrow">Water infrastructure · Egypt · Saudi Arabia · Oman</div>
+      <h1>Hossam Hussein Antar</h1>
+      <div class="role">Technical Manager / Acting Project Manager · Senior Civil Engineer</div>
+      <p class="lead">Twenty years building the pipelines, pump stations and reservoirs that move water across Egypt, Saudi Arabia and Oman, from the trench to the contract file.</p>
+      <div class="meta">
+        <span><i class="dot" aria-hidden="true"></i>Open to senior roles · GCC &amp; Brunei</span>
+        <span>Based in Salalah, Oman</span>
+        <span>Notice period ~1 month</span>
+      </div>
+      <div class="btns">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/hossam-a-4a002017a" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="#projects">See the projects</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="stat"><b>20<small>yrs</small></b><span>in water &amp; wastewater infrastructure</span></div>
+    <div class="stat"><b>238<small>km</small></b><span>carbon steel transmission, DN1200–DN1600 (Sohar–Al Dhahirah)</span></div>
+    <div class="stat"><b>95k<small>m³</small></b><span>reservoir storage, Sohar–Al Dhahirah</span></div>
+    <div class="stat"><b>27.4M<small>OMR</small></b><span>current contract, Ashoor &amp; Salalah networks</span></div>
+    <div class="stat"><b>3</b><span>countries: Egypt, Saudi Arabia, Oman</span></div>
+  </div>
+</div>
+
+<section id="profile">
+  <div class="wrap profile-grid">
+    <div class="sec-head" style="margin-bottom:0">
+      <div class="ch">CH 0+000 · Profile</div>
+      <h2>Site-proven. Contract-fluent.</h2>
+      <p class="big">Senior civil engineer with <strong>20 years</strong> in water transmission, distribution networks, wastewater collection and pumping stations. I started on site in Egypt's Gharbia sewerage programme, led delivery of <strong>Shaqra Sewerage Phase 6</strong> in Saudi Arabia, worked on the technical team of the <strong>OMR 153M Sohar–Al Dhahirah Water Transmission System</strong>, and now serve as Technical Manager / Acting Project Manager on NAMA Dhofar Services' Ashoor pump station and Salalah, Mirbat &amp; Taqah network upgrade.</p>
+      <p class="big">I bring execution and contract administration together: shutdown and tie-in planning on live mains, EOT and variation claims, rate analysis, BOQs, material approvals and tender submissions.</p>
+    </div>
+    <div>
+      <div class="comp">
+        <h3>Engineering</h3>
+        <ul class="chips">
+          <li>Transmission mains DN400–DN1600</li><li>Pump &amp; lift stations</li><li>Steel &amp; RC reservoirs</li><li>Distribution networks</li><li>DMA zoning, PRVs &amp; flow meters</li><li>Sewer networks &amp; force mains</li><li>Shutdowns, tie-ins &amp; recommissioning</li><li>Wadi &amp; canal crossings</li>
+        </ul>
+      </div>
+      <div class="comp">
+        <h3>Commercial &amp; contract</h3>
+        <ul class="chips">
+          <li>Oman Standard Contract</li><li>EOT &amp; delay claims</li><li>Variation orders</li><li>Rate analysis &amp; BOQ</li><li>Material submittals</li><li>Tender &amp; prequalification files</li><li>Primavera P6 planning</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="ch">CH 1+000 · Selected projects</div>
+      <h2>Projects that carry water</h2>
+      <p>From village sewerage in the Nile Delta to a 238 km transmission corridor in northern Oman.</p>
+    </div>
+
+    <article class="feature">
+      <div class="ph" style="background-image:url(img/sll-bend.jpg)"><span class="tag">Current · 2024–present</span></div>
+      <div class="body">
+        <div class="where">Dhofar, Oman · JV SEDE–ECCP</div>
+        <h3>Upgrading of Ashoor Pump Station &amp; Improvement of the Water Networks of Salalah, Mirbat &amp; Taqah</h3>
+        <dl class="facts">
+          <div><dt>Client</dt><dd>NAMA Dhofar Services</dd></div>
+          <div><dt>Consultant</dt><dd>AAW &amp; Partners</dd></div>
+          <div><dt>Contract</dt><dd>OMR 27.4M</dd></div>
+        </dl>
+        <div class="sub">Scope</div>
+        <ul class="ticks">
+          <li>Ashoor pump station upgrade feeding the Mirbat and Taqah reservoirs</li>
+          <li>New 2 MG reservoir at Mirbat with ancillary buildings; DN600 transmission main and DN900 supply main to Mirbat</li>
+          <li>DI DN1000/DN1200 and HDPE DN500/DN800 mains for Saadah &amp; Sahlnout; network expansion OD110–630</li>
+          <li>PRVs, DMA zoning, SCADA control centre, wadi crossings and cathodic protection</li>
+        </ul>
+        <div class="sub">My role · Technical Manager / Acting PM</div>
+        <ul class="ticks">
+          <li>Prepared the consolidated 140-day EOT claim and kept time and cost entitlement separate</li>
+          <li>Priced and reviewed variation orders with full rate analysis</li>
+          <li>Planned DN700/DN1200 shutdowns, tie-ins and recommissioning on live mains</li>
+          <li>Drove pre-Khareef supply to Saadah &amp; Sahlnout; managed material submittals with the consultant</li>
+        </ul>
+        <div class="award"><img src="img/award.jpg" alt="NAMA Dhofar Services HSE award plaque"><div><b>Best Performance in HSE 2025</b>Awarded to the project by NAMA Dhofar Services</div></div>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="ph" style="background-image:url(img/soh-iwpp.jpg)"><span class="tag">2019–2022</span></div>
+      <div class="body">
+        <div class="where">North Batinah &amp; Al Dhahirah, Oman · SEDE–PTJ JV</div>
+        <h3>Sohar–Al Dhahirah Water Transmission System</h3>
+        <dl class="facts">
+          <div><dt>Value</dt><dd>~OMR 152.9M</dd></div>
+          <div><dt>Pipelines</dt><dd>237.8 km, CS</dd></div>
+          <div><dt>Storage</dt><dd>95,000 m³</dd></div>
+        </dl>
+        <ul class="ticks">
+          <li>~237.8 km of carbon steel transmission mains DN1200–DN1600, pumped and gravity sections</li>
+          <li>Reservoirs totalling 95,000 m³: three of 25,000 m³ and one of 20,000 m³</li>
+          <li>4 pump stations (IWPP, SIR, MPS-1, MPS-2), 3 chlorination buildings, SCADA and 4 substations</li>
+          <li>Member of the technical team for SEDE, lead partner of the joint venture</li>
+        </ul>
+      </div>
+    </article>
+
+    <div class="cards">
+      <article class="card">
+        <div class="ph" style="background-image:url(img/dak-footings.jpg)" role="img" aria-label="Column footings and starter bars for a chlorination building"></div>
+        <div class="body">
+          <div class="where">Al Dakhiliyah &amp; Muscat, Oman · 2019</div>
+          <h3>Dakhiliyah Water Transmission Reinforcement, Phase 1</h3>
+          <ul class="ticks">
+            <li>DN1400 welded steel main, 14 km, with wadi crossings and concrete encasement; executed CH 10–13 km</li>
+            <li>New chlorination buildings at four stations, from foundations to handover</li>
+            <li>Pump replacement at Seeb, Bidbid and Izki stations</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph" style="background-image:url(img/shq-asphalt.jpg)" role="img" aria-label="Asphalt reinstatement over a completed sewer trench in Shaqra"></div>
+        <div class="body">
+          <div class="where">Shaqra, Riyadh Region · Al Manar Arabian</div>
+          <h3>Shaqra Sewerage, Phase 6</h3>
+          <div class="role">Project Manager · design to handover</div>
+          <ul class="ticks">
+            <li>58 km of VC and UPVC sewers, 200–600 mm, across five districts</li>
+            <li>Hydraulic design in SewerCAD, approved by consultant and owner</li>
+            <li>~770 manholes and ~200 house connections, with full road reinstatement</li>
+            <li>Completed and handed over to the owner</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph" style="background-image:url(img/ryd-pipes.jpg)" role="img" aria-label="Vitrified clay sewer pipes laid out beside an open trench in a Riyadh street"></div>
+        <div class="body">
+          <div class="where">Riyadh · National Water Company</div>
+          <h3>Riyadh Miscellaneous Sewer Lines, Contract 8</h3>
+          <ul class="ticks">
+            <li>16 km of VC sewers 200–350 mm in built-up districts</li>
+            <li>~200 precast manholes; connections into live manholes under full traffic management</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph" style="background-image:url(img/fld-pour.jpg)" role="img" aria-label="Concrete pump pouring a box culvert base slab in a deep trench beside a Riyadh expressway"></div>
+        <div class="body">
+          <div class="where">Riyadh · Riyadh Municipality</div>
+          <h3>North Riyadh Flood Mitigation: Stormwater Box Culverts</h3>
+          <ul class="ticks">
+            <li>Cast-in-situ RC box culverts up to 2.40 × 2.40 m, single and double cell</li>
+            <li>Deep rock trenches along live expressways, with day and night pours</li>
+            <li>Precast culverts and RC pipes 300–600 mm</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card wide">
+        <div class="ph" style="background-image:url(img/egy-ps.jpg)" role="img" aria-label="Completed sewage lift station building in Samanoud, Egypt"></div>
+        <div class="body">
+          <div class="where">Gharbia Governorate · Egyptian Contracting Co.</div>
+          <h3>Rural Sewerage Programmes: Kafr El-Zayat, Samanoud &amp; El-Mahalla</h3>
+          <ul class="ticks">
+            <li>Gravity networks for 25+ villages, VC and UPVC 150–800 mm; HDPE and DI force mains up to DN600</li>
+            <li>12+ lift stations, 32–145 l/s, with caisson wet wells sunk 10–12 m; complete sites with pump halls, electrical rooms, standby generators and guard houses</li>
+            <li>Siphons and canal crossings, including HDPE 560 under the Bagouria canal</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="career" class="career">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="ch">CH 2+000 · Career line</div>
+      <h2>Twenty years, one direction</h2>
+      <p>Site engineer to technical manager, always on water.</p>
+    </div>
+    <div class="line">
+      <div class="stop now"><div class="when">Jun 2024 – now</div><div class="what">
+        <h3>Technical Manager / Acting Project Manager</h3>
+        <div class="org">JV SEDE–ECCP <small>· Salalah, Oman</small></div>
+        <p>Ashoor pump station and Salalah, Mirbat &amp; Taqah networks for NAMA Dhofar Services. Also prepares technical and prequalification submissions for NAMA transmission tenders (Al Dhahirah–Al Dakhiliyah interconnection; Al Hazm–Al Rustaq).</p>
+      </div></div>
+      <div class="stop"><div class="when">Dec 2022 – Jun 2024</div><div class="what">
+        <h3>Technical Office Engineer, External Projects</h3>
+        <div class="org">Egyptian Contracting Co. (Mokhtar Ibrahim) <small>· Head Office, Cairo</small></div>
+        <p>Tender studies for Oman water networks (Seeb, Rustaq, Al Amerat, Ashoor &amp; Salalah), irrigation and earth-dam schemes in Uganda, and an infrastructure programme in the Central African Republic.</p>
+      </div></div>
+      <div class="stop"><div class="when">Sep 2019 – Dec 2022</div><div class="what">
+        <h3>Senior Civil Engineer, Technical Team</h3>
+        <div class="org">Egyptian Contracting Co. – SEDE, Oman Branch <small>· SEDE–PTJ JV</small></div>
+        <p>Dakhiliyah transmission reinforcement, then the Sohar–Al Dhahirah Water Transmission System.</p>
+      </div></div>
+      <div class="stop"><div class="when">Jun 2016 – Sep 2019</div><div class="what">
+        <h3>Senior Civil Engineer</h3>
+        <div class="org">Egyptian Contracting Co. (Mokhtar Ibrahim) <small>· Gharbia, Egypt</small></div>
+        <p>Sewerage networks, force mains and lift stations for Samanoud and El-Mahalla El-Kubra villages, USD 7M–50M programmes.</p>
+      </div></div>
+      <div class="stop"><div class="when">Dec 2011 – Jun 2016</div><div class="what">
+        <h3>Site Engineer → Project Manager</h3>
+        <div class="org">Al Manar Arabian Trading &amp; Contracting <small>· Riyadh &amp; Shaqra, KSA</small></div>
+        <p>Riyadh Sewerage Contract 8, Shaqra Sewerage Phase 6 (as Project Manager), North Riyadh flood mitigation.</p>
+      </div></div>
+      <div class="stop"><div class="when">Jan 2007 – Dec 2011</div><div class="what">
+        <h3>Site Civil Engineer &amp; Technical Office</h3>
+        <div class="org">Egyptian Contracting Co. (Mokhtar Ibrahim) <small>· Kafr El-Zayat, Egypt</small></div>
+        <p>Sewerage for 15 villages: networks, force mains, lift stations, siphons. Technical office: as-builts, shop drawings, 15+ approved design modifications, subcontractor measurements.</p>
+      </div></div>
+      <div class="stop edu"><div class="when">2006</div><div class="what">
+        <h3>B.Sc. Civil Engineering</h3>
+        <div class="org">Assiut University <small>· Egypt</small></div>
+        <p>Graduation project: highway and traffic engineering, grade Very Good.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="map" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="ch">CH 3+000 · Where the work is</div>
+      <h2>Three countries, one region</h2>
+      <p>Select a place to see what was built there.</p>
+    </div>
+    <div class="map-wrap">
+      <div class="map">
+        <svg viewBox="0 0 800 520" role="img" aria-labelledby="mapt">
+          <title id="mapt">Map of Egypt, Saudi Arabia and Oman with project locations</title>
+          <path class="d-x" d="M26 520h0M34.5 520h0M43 520h0M51.5 520h0M59.9 520h0M68.4 520h0M76.9 520h0M85.4 520h0M93.9 520h0M102.4 520h0M110.9 520h0M119.4 520h0M127.9 520h0M136.4 520h0M144.9 520h0M153.4 520h0M161.8 520h0M170.3 520h0M178.8 520h0M187.3 520h0M195.8 520h0M204.3 520h0M212.8 520h0M221.3 520h0M229.8 520h0M238.3 520h0M246.8 520h0M255.2 520h0M263.7 520h0M272.2 520h0M280.7 520h0M289.2 520h0M297.7 520h0M306.2 520h0M314.7 520h0M323.2 520h0M331.7 520h0M340.2 520h0M348.6 520h0M357.1 520h0M365.6 520h0M374.1 520h0M382.6 520h0M391.1 520h0M399.6 520h0M408.1 520h0M552.4 520h0M560.9 520h0M569.4 520h0M26 511.3h0M34.5 511.3h0M43 511.3h0M51.5 511.3h0M59.9 511.3h0M68.4 511.3h0M76.9 511.3h0M85.4 511.3h0M93.9 511.3h0M102.4 511.3h0M110.9 511.3h0M119.4 511.3h0M127.9 511.3h0M136.4 511.3h0M144.9 511.3h0M153.4 511.3h0M161.8 511.3h0M170.3 511.3h0M178.8 511.3h0M187.3 511.3h0M195.8 511.3h0M204.3 511.3h0M212.8 511.3h0M221.3 511.3h0M229.8 511.3h0M238.3 511.3h0M246.8 511.3h0M255.2 511.3h0M263.7 511.3h0M272.2 511.3h0M280.7 511.3h0M289.2 511.3h0M297.7 511.3h0M306.2 511.3h0M314.7 511.3h0M323.2 511.3h0M331.7 511.3h0M340.2 511.3h0M348.6 511.3h0M357.1 511.3h0M365.6 511.3h0M374.1 511.3h0M382.6 511.3h0M391.1 511.3h0M399.6 511.3h0M408.1 511.3h0M569.4 511.3h0M26 502.6h0M34.5 502.6h0M43 502.6h0M51.5 502.6h0M59.9 502.6h0M68.4 502.6h0M76.9 502.6h0M85.4 502.6h0M93.9 502.6h0M102.4 502.6h0M110.9 502.6h0M119.4 502.6h0M127.9 502.6h0M136.4 502.6h0M144.9 502.6h0M153.4 502.6h0M161.8 502.6h0M170.3 502.6h0M178.8 502.6h0M187.3 502.6h0M195.8 502.6h0M204.3 502.6h0M212.8 502.6h0M221.3 502.6h0M229.8 502.6h0M238.3 502.6h0M246.8 502.6h0M255.2 502.6h0M263.7 502.6h0M272.2 502.6h0M280.7 502.6h0M289.2 502.6h0M297.7 502.6h0M306.2 502.6h0M314.7 502.6h0M323.2 502.6h0M331.7 502.6h0M340.2 502.6h0M348.6 502.6h0M357.1 502.6h0M365.6 502.6h0M374.1 502.6h0M382.6 502.6h0M391.1 502.6h0M399.6 502.6h0M408.1 502.6h0M416.6 502.6h0M628.9 502.6h0M26 493.9h0M34.5 493.9h0M43 493.9h0M51.5 493.9h0M59.9 493.9h0M68.4 493.9h0M76.9 493.9h0M85.4 493.9h0M93.9 493.9h0M102.4 493.9h0M110.9 493.9h0M119.4 493.9h0M127.9 493.9h0M136.4 493.9h0M144.9 493.9h0M153.4 493.9h0M161.8 493.9h0M170.3 493.9h0M178.8 493.9h0M187.3 493.9h0M195.8 493.9h0M204.3 493.9h0M212.8 493.9h0M221.3 493.9h0M229.8 493.9h0M238.3 493.9h0M246.8 493.9h0M255.2 493.9h0M263.7 493.9h0M272.2 493.9h0M280.7 493.9h0M289.2 493.9h0M297.7 493.9h0M306.2 493.9h0M314.7 493.9h0M323.2 493.9h0M331.7 493.9h0M340.2 493.9h0M348.6 493.9h0M357.1 493.9h0M365.6 493.9h0M374.1 493.9h0M382.6 493.9h0M391.1 493.9h0M399.6 493.9h0M408.1 493.9h0M425.1 493.9h0M433.6 493.9h0M26 485.2h0M34.5 485.2h0M43 485.2h0M51.5 485.2h0M59.9 485.2h0M68.4 485.2h0M76.9 485.2h0M85.4 485.2h0M93.9 485.2h0M102.4 485.2h0M110.9 485.2h0M119.4 485.2h0M127.9 485.2h0M136.4 485.2h0M144.9 485.2h0M153.4 485.2h0M161.8 485.2h0M170.3 485.2h0M178.8 485.2h0M187.3 485.2h0M195.8 485.2h0M204.3 485.2h0M212.8 485.2h0M221.3 485.2h0M229.8 485.2h0M238.3 485.2h0M246.8 485.2h0M255.2 485.2h0M263.7 485.2h0M272.2 485.2h0M280.7 485.2h0M289.2 485.2h0M297.7 485.2h0M306.2 485.2h0M314.7 485.2h0M323.2 485.2h0M331.7 485.2h0M340.2 485.2h0M348.6 485.2h0M357.1 485.2h0M365.6 485.2h0M374.1 485.2h0M382.6 485.2h0M391.1 485.2h0M399.6 485.2h0M416.6 485.2h0M425.1 485.2h0M433.6 485.2h0M442.1 485.2h0M450.5 485.2h0M459 485.2h0M26 476.5h0M34.5 476.5h0M43 476.5h0M51.5 476.5h0M59.9 476.5h0M68.4 476.5h0M76.9 476.5h0M85.4 476.5h0M93.9 476.5h0M102.4 476.5h0M110.9 476.5h0M119.4 476.5h0M127.9 476.5h0M136.4 476.5h0M144.9 476.5h0M153.4 476.5h0M161.8 476.5h0M170.3 476.5h0M178.8 476.5h0M187.3 476.5h0M195.8 476.5h0M204.3 476.5h0M212.8 476.5h0M221.3 476.5h0M229.8 476.5h0M238.3 476.5h0M246.8 476.5h0M255.2 476.5h0M263.7 476.5h0M272.2 476.5h0M280.7 476.5h0M289.2 476.5h0M297.7 476.5h0M306.2 476.5h0M314.7 476.5h0M323.2 476.5h0M331.7 476.5h0M340.2 476.5h0M348.6 476.5h0M357.1 476.5h0M365.6 476.5h0M374.1 476.5h0M382.6 476.5h0M391.1 476.5h0M416.6 476.5h0M425.1 476.5h0M433.6 476.5h0M442.1 476.5h0M450.5 476.5h0M459 476.5h0M467.5 476.5h0M476 476.5h0M484.5 476.5h0M493 476.5h0M26 467.8h0M34.5 467.8h0M43 467.8h0M51.5 467.8h0M59.9 467.8h0M68.4 467.8h0M76.9 467.8h0M85.4 467.8h0M93.9 467.8h0M102.4 467.8h0M110.9 467.8h0M119.4 467.8h0M127.9 467.8h0M136.4 467.8h0M144.9 467.8h0M153.4 467.8h0M161.8 467.8h0M170.3 467.8h0M178.8 467.8h0M187.3 467.8h0M195.8 467.8h0M204.3 467.8h0M212.8 467.8h0M221.3 467.8h0M229.8 467.8h0M238.3 467.8h0M246.8 467.8h0M255.2 467.8h0M263.7 467.8h0M272.2 467.8h0M280.7 467.8h0M289.2 467.8h0M297.7 467.8h0M306.2 467.8h0M314.7 467.8h0M323.2 467.8h0M331.7 467.8h0M340.2 467.8h0M348.6 467.8h0M357.1 467.8h0M365.6 467.8h0M374.1 467.8h0M416.6 467.8h0M425.1 467.8h0M433.6 467.8h0M442.1 467.8h0M450.5 467.8h0M459 467.8h0M467.5 467.8h0M476 467.8h0M484.5 467.8h0M493 467.8h0M501.5 467.8h0M518.5 467.8h0M26 459h0M34.5 459h0M43 459h0M51.5 459h0M59.9 459h0M68.4 459h0M76.9 459h0M85.4 459h0M93.9 459h0M102.4 459h0M110.9 459h0M119.4 459h0M127.9 459h0M136.4 459h0M144.9 459h0M153.4 459h0M161.8 459h0M170.3 459h0M178.8 459h0M187.3 459h0M195.8 459h0M204.3 459h0M212.8 459h0M221.3 459h0M229.8 459h0M238.3 459h0M246.8 459h0M255.2 459h0M263.7 459h0M272.2 459h0M280.7 459h0M289.2 459h0M297.7 459h0M306.2 459h0M314.7 459h0M323.2 459h0M331.7 459h0M340.2 459h0M348.6 459h0M357.1 459h0M365.6 459h0M374.1 459h0M416.6 459h0M425.1 459h0M433.6 459h0M442.1 459h0M450.5 459h0M459 459h0M467.5 459h0M476 459h0M484.5 459h0M493 459h0M501.5 459h0M510 459h0M518.5 459h0M527 459h0M26 450.2h0M34.5 450.2h0M43 450.2h0M51.5 450.2h0M59.9 450.2h0M68.4 450.2h0M76.9 450.2h0M85.4 450.2h0M93.9 450.2h0M102.4 450.2h0M110.9 450.2h0M119.4 450.2h0M127.9 450.2h0M136.4 450.2h0M144.9 450.2h0M153.4 450.2h0M161.8 450.2h0M170.3 450.2h0M178.8 450.2h0M187.3 450.2h0M195.8 450.2h0M204.3 450.2h0M212.8 450.2h0M221.3 450.2h0M229.8 450.2h0M238.3 450.2h0M246.8 450.2h0M255.2 450.2h0M263.7 450.2h0M272.2 450.2h0M280.7 450.2h0M289.2 450.2h0M297.7 450.2h0M306.2 450.2h0M314.7 450.2h0M323.2 450.2h0M331.7 450.2h0M340.2 450.2h0M348.6 450.2h0M357.1 450.2h0M416.6 450.2h0M425.1 450.2h0M433.6 450.2h0M442.1 450.2h0M450.5 450.2h0M459 450.2h0M467.5 450.2h0M476 450.2h0M484.5 450.2h0M493 450.2h0M501.5 450.2h0M510 450.2h0M518.5 450.2h0M527 450.2h0M535.5 450.2h0M543.9 450.2h0M552.4 450.2h0M26 441.4h0M34.5 441.4h0M43 441.4h0M51.5 441.4h0M59.9 441.4h0M68.4 441.4h0M76.9 441.4h0M85.4 441.4h0M93.9 441.4h0M102.4 441.4h0M110.9 441.4h0M119.4 441.4h0M127.9 441.4h0M136.4 441.4h0M144.9 441.4h0M153.4 441.4h0M161.8 441.4h0M170.3 441.4h0M178.8 441.4h0M187.3 441.4h0M195.8 441.4h0M204.3 441.4h0M212.8 441.4h0M221.3 441.4h0M229.8 441.4h0M238.3 441.4h0M246.8 441.4h0M255.2 441.4h0M263.7 441.4h0M272.2 441.4h0M280.7 441.4h0M289.2 441.4h0M297.7 441.4h0M306.2 441.4h0M314.7 441.4h0M323.2 441.4h0M331.7 441.4h0M340.2 441.4h0M348.6 441.4h0M408.1 441.4h0M416.6 441.4h0M425.1 441.4h0M433.6 441.4h0M442.1 441.4h0M450.5 441.4h0M459 441.4h0M467.5 441.4h0M476 441.4h0M484.5 441.4h0M493 441.4h0M501.5 441.4h0M510 441.4h0M518.5 441.4h0M527 441.4h0M535.5 441.4h0M543.9 441.4h0M552.4 441.4h0M560.9 441.4h0M569.4 441.4h0M577.9 441.4h0M26 432.6h0M34.5 432.6h0M43 432.6h0M51.5 432.6h0M59.9 432.6h0M68.4 432.6h0M76.9 432.6h0M85.4 432.6h0M93.9 432.6h0M102.4 432.6h0M110.9 432.6h0M119.4 432.6h0M127.9 432.6h0M136.4 432.6h0M144.9 432.6h0M153.4 432.6h0M161.8 432.6h0M170.3 432.6h0M178.8 432.6h0M187.3 432.6h0M195.8 432.6h0M204.3 432.6h0M212.8 432.6h0M221.3 432.6h0M229.8 432.6h0M238.3 432.6h0M246.8 432.6h0M255.2 432.6h0M263.7 432.6h0M272.2 432.6h0M280.7 432.6h0M289.2 432.6h0M297.7 432.6h0M306.2 432.6h0M314.7 432.6h0M323.2 432.6h0M331.7 432.6h0M408.1 432.6h0M416.6 432.6h0M425.1 432.6h0M433.6 432.6h0M442.1 432.6h0M450.5 432.6h0M459 432.6h0M467.5 432.6h0M476 432.6h0M484.5 432.6h0M493 432.6h0M501.5 432.6h0M510 432.6h0M518.5 432.6h0M527 432.6h0M535.5 432.6h0M543.9 432.6h0M552.4 432.6h0M560.9 432.6h0M569.4 432.6h0M577.9 432.6h0M586.4 432.6h0M594.9 432.6h0M26 423.8h0M34.5 423.8h0M43 423.8h0M51.5 423.8h0M59.9 423.8h0M68.4 423.8h0M76.9 423.8h0M85.4 423.8h0M93.9 423.8h0M102.4 423.8h0M110.9 423.8h0M119.4 423.8h0M127.9 423.8h0M136.4 423.8h0M144.9 423.8h0M153.4 423.8h0M161.8 423.8h0M170.3 423.8h0M178.8 423.8h0M187.3 423.8h0M195.8 423.8h0M204.3 423.8h0M212.8 423.8h0M221.3 423.8h0M229.8 423.8h0M238.3 423.8h0M246.8 423.8h0M255.2 423.8h0M263.7 423.8h0M272.2 423.8h0M280.7 423.8h0M289.2 423.8h0M297.7 423.8h0M306.2 423.8h0M314.7 423.8h0M323.2 423.8h0M331.7 423.8h0M408.1 423.8h0M416.6 423.8h0M425.1 423.8h0M433.6 423.8h0M442.1 423.8h0M450.5 423.8h0M459 423.8h0M467.5 423.8h0M476 423.8h0M484.5 423.8h0M493 423.8h0M501.5 423.8h0M510 423.8h0M518.5 423.8h0M527 423.8h0M535.5 423.8h0M543.9 423.8h0M552.4 423.8h0M560.9 423.8h0M569.4 423.8h0M577.9 423.8h0M586.4 423.8h0M594.9 423.8h0M26 414.9h0M34.5 414.9h0M43 414.9h0M51.5 414.9h0M59.9 414.9h0M68.4 414.9h0M76.9 414.9h0M85.4 414.9h0M93.9 414.9h0M102.4 414.9h0M110.9 414.9h0M119.4 414.9h0M127.9 414.9h0M136.4 414.9h0M144.9 414.9h0M153.4 414.9h0M161.8 414.9h0M170.3 414.9h0M178.8 414.9h0M187.3 414.9h0M195.8 414.9h0M204.3 414.9h0M212.8 414.9h0M221.3 414.9h0M229.8 414.9h0M238.3 414.9h0M246.8 414.9h0M255.2 414.9h0M263.7 414.9h0M272.2 414.9h0M280.7 414.9h0M289.2 414.9h0M297.7 414.9h0M306.2 414.9h0M314.7 414.9h0M323.2 414.9h0M331.7 414.9h0M416.6 414.9h0M425.1 414.9h0M433.6 414.9h0M442.1 414.9h0M450.5 414.9h0M459 414.9h0M467.5 414.9h0M476 414.9h0M484.5 414.9h0M493 414.9h0M501.5 414.9h0M510 414.9h0M518.5 414.9h0M527 414.9h0M535.5 414.9h0M543.9 414.9h0M552.4 414.9h0M560.9 414.9h0M569.4 414.9h0M577.9 414.9h0M586.4 414.9h0M594.9 414.9h0M603.4 414.9h0M26 406.1h0M34.5 406.1h0M43 406.1h0M51.5 406.1h0M59.9 406.1h0M68.4 406.1h0M76.9 406.1h0M85.4 406.1h0M93.9 406.1h0M102.4 406.1h0M110.9 406.1h0M119.4 406.1h0M127.9 406.1h0M136.4 406.1h0M144.9 406.1h0M153.4 406.1h0M161.8 406.1h0M170.3 406.1h0M178.8 406.1h0M187.3 406.1h0M195.8 406.1h0M204.3 406.1h0M212.8 406.1h0M221.3 406.1h0M229.8 406.1h0M238.3 406.1h0M246.8 406.1h0M255.2 406.1h0M263.7 406.1h0M272.2 406.1h0M280.7 406.1h0M289.2 406.1h0M297.7 406.1h0M306.2 406.1h0M314.7 406.1h0M323.2 406.1h0M416.6 406.1h0M425.1 406.1h0M433.6 406.1h0M442.1 406.1h0M450.5 406.1h0M459 406.1h0M467.5 406.1h0M476 406.1h0M484.5 406.1h0M501.5 406.1h0M510 406.1h0M518.5 406.1h0M527 406.1h0M535.5 406.1h0M543.9 406.1h0M552.4 406.1h0M560.9 406.1h0M569.4 406.1h0M577.9 406.1h0M586.4 406.1h0M594.9 406.1h0M603.4 406.1h0M26 397.2h0M34.5 397.2h0M43 397.2h0M51.5 397.2h0M59.9 397.2h0M68.4 397.2h0M76.9 397.2h0M85.4 397.2h0M93.9 397.2h0M102.4 397.2h0M110.9 397.2h0M119.4 397.2h0M127.9 397.2h0M136.4 397.2h0M144.9 397.2h0M153.4 397.2h0M161.8 397.2h0M170.3 397.2h0M178.8 397.2h0M187.3 397.2h0M195.8 397.2h0M204.3 397.2h0M212.8 397.2h0M221.3 397.2h0M229.8 397.2h0M238.3 397.2h0M246.8 397.2h0M255.2 397.2h0M263.7 397.2h0M272.2 397.2h0M280.7 397.2h0M289.2 397.2h0M297.7 397.2h0M306.2 397.2h0M314.7 397.2h0M323.2 397.2h0M416.6 397.2h0M433.6 397.2h0M442.1 397.2h0M450.5 397.2h0M510 397.2h0M518.5 397.2h0M527 397.2h0M535.5 397.2h0M543.9 397.2h0M552.4 397.2h0M560.9 397.2h0M569.4 397.2h0M577.9 397.2h0M586.4 397.2h0M594.9 397.2h0M603.4 397.2h0M26 388.3h0M34.5 388.3h0M43 388.3h0M51.5 388.3h0M59.9 388.3h0M68.4 388.3h0M76.9 388.3h0M85.4 388.3h0M93.9 388.3h0M102.4 388.3h0M110.9 388.3h0M119.4 388.3h0M127.9 388.3h0M136.4 388.3h0M144.9 388.3h0M153.4 388.3h0M161.8 388.3h0M170.3 388.3h0M178.8 388.3h0M187.3 388.3h0M195.8 388.3h0M204.3 388.3h0M212.8 388.3h0M221.3 388.3h0M229.8 388.3h0M238.3 388.3h0M246.8 388.3h0M255.2 388.3h0M263.7 388.3h0M272.2 388.3h0M280.7 388.3h0M289.2 388.3h0M297.7 388.3h0M306.2 388.3h0M314.7 388.3h0M323.2 388.3h0M510 388.3h0M518.5 388.3h0M527 388.3h0M535.5 388.3h0M543.9 388.3h0M552.4 388.3h0M560.9 388.3h0M569.4 388.3h0M577.9 388.3h0M586.4 388.3h0M594.9 388.3h0M26 379.3h0M34.5 379.3h0M43 379.3h0M51.5 379.3h0M59.9 379.3h0M68.4 379.3h0M76.9 379.3h0M85.4 379.3h0M93.9 379.3h0M102.4 379.3h0M110.9 379.3h0M119.4 379.3h0M127.9 379.3h0M136.4 379.3h0M144.9 379.3h0M153.4 379.3h0M161.8 379.3h0M170.3 379.3h0M178.8 379.3h0M187.3 379.3h0M195.8 379.3h0M204.3 379.3h0M212.8 379.3h0M221.3 379.3h0M229.8 379.3h0M238.3 379.3h0M246.8 379.3h0M255.2 379.3h0M263.7 379.3h0M272.2 379.3h0M280.7 379.3h0M289.2 379.3h0M297.7 379.3h0M306.2 379.3h0M314.7 379.3h0M518.5 379.3h0M527 379.3h0M535.5 379.3h0M543.9 379.3h0M552.4 379.3h0M560.9 379.3h0M569.4 379.3h0M577.9 379.3h0M586.4 379.3h0M594.9 379.3h0M26 370.4h0M34.5 370.4h0M43 370.4h0M51.5 370.4h0M59.9 370.4h0M68.4 370.4h0M76.9 370.4h0M85.4 370.4h0M93.9 370.4h0M102.4 370.4h0M110.9 370.4h0M119.4 370.4h0M127.9 370.4h0M136.4 370.4h0M144.9 370.4h0M153.4 370.4h0M161.8 370.4h0M170.3 370.4h0M178.8 370.4h0M187.3 370.4h0M195.8 370.4h0M204.3 370.4h0M212.8 370.4h0M221.3 370.4h0M229.8 370.4h0M238.3 370.4h0M246.8 370.4h0M255.2 370.4h0M263.7 370.4h0M272.2 370.4h0M280.7 370.4h0M289.2 370.4h0M297.7 370.4h0M543.9 370.4h0M552.4 370.4h0M560.9 370.4h0M569.4 370.4h0M577.9 370.4h0M586.4 370.4h0M26 361.4h0M34.5 361.4h0M43 361.4h0M51.5 361.4h0M59.9 361.4h0M68.4 361.4h0M76.9 361.4h0M85.4 361.4h0M93.9 361.4h0M102.4 361.4h0M110.9 361.4h0M119.4 361.4h0M127.9 361.4h0M136.4 361.4h0M144.9 361.4h0M153.4 361.4h0M161.8 361.4h0M170.3 361.4h0M178.8 361.4h0M187.3 361.4h0M195.8 361.4h0M204.3 361.4h0M212.8 361.4h0M221.3 361.4h0M229.8 361.4h0M238.3 361.4h0M246.8 361.4h0M255.2 361.4h0M263.7 361.4h0M272.2 361.4h0M280.7 361.4h0M289.2 361.4h0M26 352.4h0M34.5 352.4h0M43 352.4h0M51.5 352.4h0M59.9 352.4h0M68.4 352.4h0M76.9 352.4h0M85.4 352.4h0M93.9 352.4h0M102.4 352.4h0M110.9 352.4h0M119.4 352.4h0M127.9 352.4h0M136.4 352.4h0M144.9 352.4h0M153.4 352.4h0M161.8 352.4h0M170.3 352.4h0M178.8 352.4h0M187.3 352.4h0M195.8 352.4h0M204.3 352.4h0M212.8 352.4h0M221.3 352.4h0M229.8 352.4h0M238.3 352.4h0M246.8 352.4h0M255.2 352.4h0M263.7 352.4h0M272.2 352.4h0M280.7 352.4h0M289.2 352.4h0M26 343.4h0M34.5 343.4h0M43 343.4h0M51.5 343.4h0M59.9 343.4h0M68.4 343.4h0M76.9 343.4h0M85.4 343.4h0M93.9 343.4h0M102.4 343.4h0M110.9 343.4h0M119.4 343.4h0M127.9 343.4h0M136.4 343.4h0M144.9 343.4h0M153.4 343.4h0M161.8 343.4h0M170.3 343.4h0M178.8 343.4h0M187.3 343.4h0M195.8 343.4h0M204.3 343.4h0M212.8 343.4h0M221.3 343.4h0M229.8 343.4h0M238.3 343.4h0M246.8 343.4h0M255.2 343.4h0M263.7 343.4h0M272.2 343.4h0M280.7 343.4h0M289.2 343.4h0M26 334.4h0M34.5 334.4h0M43 334.4h0M51.5 334.4h0M59.9 334.4h0M68.4 334.4h0M76.9 334.4h0M85.4 334.4h0M93.9 334.4h0M102.4 334.4h0M110.9 334.4h0M119.4 334.4h0M127.9 334.4h0M136.4 334.4h0M144.9 334.4h0M153.4 334.4h0M161.8 334.4h0M170.3 334.4h0M178.8 334.4h0M187.3 334.4h0M195.8 334.4h0M204.3 334.4h0M212.8 334.4h0M221.3 334.4h0M229.8 334.4h0M238.3 334.4h0M246.8 334.4h0M255.2 334.4h0M263.7 334.4h0M272.2 334.4h0M280.7 334.4h0M289.2 334.4h0M26 325.3h0M34.5 325.3h0M43 325.3h0M51.5 325.3h0M59.9 325.3h0M68.4 325.3h0M76.9 325.3h0M85.4 325.3h0M93.9 325.3h0M102.4 325.3h0M110.9 325.3h0M119.4 325.3h0M127.9 325.3h0M136.4 325.3h0M144.9 325.3h0M153.4 325.3h0M161.8 325.3h0M170.3 325.3h0M178.8 325.3h0M187.3 325.3h0M195.8 325.3h0M204.3 325.3h0M212.8 325.3h0M221.3 325.3h0M229.8 325.3h0M238.3 325.3h0M246.8 325.3h0M255.2 325.3h0M263.7 325.3h0M272.2 325.3h0M280.7 325.3h0M289.2 325.3h0M26 316.2h0M34.5 316.2h0M43 316.2h0M51.5 316.2h0M59.9 316.2h0M68.4 316.2h0M76.9 316.2h0M85.4 316.2h0M93.9 316.2h0M102.4 316.2h0M110.9 316.2h0M119.4 316.2h0M127.9 316.2h0M136.4 316.2h0M144.9 316.2h0M153.4 316.2h0M161.8 316.2h0M170.3 316.2h0M178.8 316.2h0M187.3 316.2h0M195.8 316.2h0M204.3 316.2h0M212.8 316.2h0M221.3 316.2h0M229.8 316.2h0M238.3 316.2h0M246.8 316.2h0M255.2 316.2h0M263.7 316.2h0M272.2 316.2h0M280.7 316.2h0M289.2 316.2h0M26 307.1h0M34.5 307.1h0M43 307.1h0M51.5 307.1h0M59.9 307.1h0M68.4 307.1h0M76.9 307.1h0M85.4 307.1h0M93.9 307.1h0M102.4 307.1h0M110.9 307.1h0M119.4 307.1h0M127.9 307.1h0M136.4 307.1h0M144.9 307.1h0M153.4 307.1h0M161.8 307.1h0M170.3 307.1h0M178.8 307.1h0M187.3 307.1h0M195.8 307.1h0M204.3 307.1h0M212.8 307.1h0M221.3 307.1h0M229.8 307.1h0M238.3 307.1h0M246.8 307.1h0M255.2 307.1h0M263.7 307.1h0M272.2 307.1h0M280.7 307.1h0M26 297.9h0M34.5 297.9h0M43 297.9h0M26 288.8h0M34.5 288.8h0M43 288.8h0M26 279.6h0M34.5 279.6h0M43 279.6h0M620.4 279.6h0M628.9 279.6h0M637.3 279.6h0M645.8 279.6h0M654.3 279.6h0M26 270.3h0M34.5 270.3h0M43 270.3h0M603.4 270.3h0M611.9 270.3h0M620.4 270.3h0M628.9 270.3h0M637.3 270.3h0M645.8 270.3h0M654.3 270.3h0M26 261.1h0M34.5 261.1h0M43 261.1h0M594.9 261.1h0M603.4 261.1h0M611.9 261.1h0M620.4 261.1h0M628.9 261.1h0M637.3 261.1h0M645.8 261.1h0M654.3 261.1h0M26 251.8h0M34.5 251.8h0M43 251.8h0M586.4 251.8h0M603.4 251.8h0M611.9 251.8h0M637.3 251.8h0M645.8 251.8h0M654.3 251.8h0M662.8 251.8h0M671.3 251.8h0M26 242.5h0M34.5 242.5h0M43 242.5h0M645.8 242.5h0M654.3 242.5h0M662.8 242.5h0M26 233.1h0M34.5 233.1h0M43 233.1h0M569.4 233.1h0M577.9 233.1h0M654.3 233.1h0M662.8 233.1h0M26 223.8h0M34.5 223.8h0M43 223.8h0M569.4 223.8h0M577.9 223.8h0M662.8 223.8h0M671.3 223.8h0M679.8 223.8h0M773.2 223.8h0M26 214.3h0M34.5 214.3h0M43 214.3h0M577.9 214.3h0M705.3 214.3h0M713.8 214.3h0M722.3 214.3h0M730.8 214.3h0M739.2 214.3h0M747.7 214.3h0M756.2 214.3h0M764.7 214.3h0M773.2 214.3h0M26 204.9h0M34.5 204.9h0M43 204.9h0M560.9 204.9h0M705.3 204.9h0M713.8 204.9h0M722.3 204.9h0M730.8 204.9h0M739.2 204.9h0M747.7 204.9h0M756.2 204.9h0M764.7 204.9h0M773.2 204.9h0M26 195.4h0M34.5 195.4h0M43 195.4h0M645.8 195.4h0M662.8 195.4h0M696.8 195.4h0M705.3 195.4h0M713.8 195.4h0M722.3 195.4h0M730.8 195.4h0M739.2 195.4h0M747.7 195.4h0M756.2 195.4h0M764.7 195.4h0M773.2 195.4h0M26 185.9h0M34.5 185.9h0M43 185.9h0M620.4 185.9h0M628.9 185.9h0M637.3 185.9h0M645.8 185.9h0M654.3 185.9h0M662.8 185.9h0M671.3 185.9h0M696.8 185.9h0M705.3 185.9h0M713.8 185.9h0M722.3 185.9h0M730.8 185.9h0M739.2 185.9h0M747.7 185.9h0M756.2 185.9h0M764.7 185.9h0M773.2 185.9h0M26 176.4h0M34.5 176.4h0M43 176.4h0M611.9 176.4h0M620.4 176.4h0M628.9 176.4h0M637.3 176.4h0M645.8 176.4h0M654.3 176.4h0M662.8 176.4h0M671.3 176.4h0M679.8 176.4h0M688.3 176.4h0M696.8 176.4h0M705.3 176.4h0M713.8 176.4h0M722.3 176.4h0M730.8 176.4h0M739.2 176.4h0M747.7 176.4h0M756.2 176.4h0M764.7 176.4h0M773.2 176.4h0M26 166.8h0M34.5 166.8h0M43 166.8h0M586.4 166.8h0M594.9 166.8h0M603.4 166.8h0M611.9 166.8h0M620.4 166.8h0M628.9 166.8h0M637.3 166.8h0M645.8 166.8h0M654.3 166.8h0M662.8 166.8h0M671.3 166.8h0M679.8 166.8h0M688.3 166.8h0M696.8 166.8h0M705.3 166.8h0M713.8 166.8h0M722.3 166.8h0M730.8 166.8h0M739.2 166.8h0M747.7 166.8h0M756.2 166.8h0M764.7 166.8h0M773.2 166.8h0M26 157.1h0M34.5 157.1h0M43 157.1h0M577.9 157.1h0M586.4 157.1h0M594.9 157.1h0M603.4 157.1h0M611.9 157.1h0M620.4 157.1h0M628.9 157.1h0M637.3 157.1h0M645.8 157.1h0M654.3 157.1h0M662.8 157.1h0M671.3 157.1h0M679.8 157.1h0M688.3 157.1h0M696.8 157.1h0M705.3 157.1h0M713.8 157.1h0M722.3 157.1h0M730.8 157.1h0M739.2 157.1h0M747.7 157.1h0M756.2 157.1h0M764.7 157.1h0M773.2 157.1h0M26 147.5h0M34.5 147.5h0M43 147.5h0M510 147.5h0M577.9 147.5h0M586.4 147.5h0M594.9 147.5h0M603.4 147.5h0M611.9 147.5h0M620.4 147.5h0M628.9 147.5h0M637.3 147.5h0M645.8 147.5h0M654.3 147.5h0M662.8 147.5h0M671.3 147.5h0M679.8 147.5h0M688.3 147.5h0M696.8 147.5h0M705.3 147.5h0M713.8 147.5h0M722.3 147.5h0M730.8 147.5h0M739.2 147.5h0M747.7 147.5h0M756.2 147.5h0M764.7 147.5h0M773.2 147.5h0M26 137.8h0M34.5 137.8h0M43 137.8h0M459 137.8h0M467.5 137.8h0M476 137.8h0M484.5 137.8h0M493 137.8h0M501.5 137.8h0M510 137.8h0M569.4 137.8h0M577.9 137.8h0M586.4 137.8h0M594.9 137.8h0M603.4 137.8h0M611.9 137.8h0M620.4 137.8h0M628.9 137.8h0M637.3 137.8h0M645.8 137.8h0M654.3 137.8h0M662.8 137.8h0M671.3 137.8h0M679.8 137.8h0M688.3 137.8h0M696.8 137.8h0M705.3 137.8h0M713.8 137.8h0M722.3 137.8h0M730.8 137.8h0M739.2 137.8h0M747.7 137.8h0M756.2 137.8h0M764.7 137.8h0M773.2 137.8h0M26 128h0M34.5 128h0M43 128h0M246.8 128h0M255.2 128h0M263.7 128h0M272.2 128h0M442.1 128h0M450.5 128h0M459 128h0M467.5 128h0M476 128h0M484.5 128h0M493 128h0M501.5 128h0M569.4 128h0M577.9 128h0M586.4 128h0M594.9 128h0M603.4 128h0M611.9 128h0M620.4 128h0M628.9 128h0M637.3 128h0M645.8 128h0M654.3 128h0M662.8 128h0M671.3 128h0M679.8 128h0M688.3 128h0M696.8 128h0M705.3 128h0M713.8 128h0M722.3 128h0M730.8 128h0M739.2 128h0M747.7 128h0M756.2 128h0M764.7 128h0M773.2 128h0M26 118.3h0M34.5 118.3h0M246.8 118.3h0M255.2 118.3h0M263.7 118.3h0M272.2 118.3h0M280.7 118.3h0M289.2 118.3h0M425.1 118.3h0M433.6 118.3h0M442.1 118.3h0M450.5 118.3h0M459 118.3h0M467.5 118.3h0M476 118.3h0M484.5 118.3h0M493 118.3h0M501.5 118.3h0M510 118.3h0M518.5 118.3h0M560.9 118.3h0M569.4 118.3h0M577.9 118.3h0M586.4 118.3h0M594.9 118.3h0M603.4 118.3h0M611.9 118.3h0M620.4 118.3h0M628.9 118.3h0M637.3 118.3h0M645.8 118.3h0M654.3 118.3h0M662.8 118.3h0M671.3 118.3h0M679.8 118.3h0M688.3 118.3h0M696.8 118.3h0M705.3 118.3h0M713.8 118.3h0M722.3 118.3h0M730.8 118.3h0M739.2 118.3h0M747.7 118.3h0M756.2 118.3h0M764.7 118.3h0M773.2 118.3h0M26 108.4h0M34.5 108.4h0M246.8 108.4h0M255.2 108.4h0M263.7 108.4h0M272.2 108.4h0M280.7 108.4h0M289.2 108.4h0M297.7 108.4h0M416.6 108.4h0M425.1 108.4h0M433.6 108.4h0M442.1 108.4h0M450.5 108.4h0M459 108.4h0M467.5 108.4h0M476 108.4h0M484.5 108.4h0M493 108.4h0M501.5 108.4h0M510 108.4h0M518.5 108.4h0M527 108.4h0M543.9 108.4h0M552.4 108.4h0M560.9 108.4h0M569.4 108.4h0M577.9 108.4h0M586.4 108.4h0M594.9 108.4h0M603.4 108.4h0M611.9 108.4h0M620.4 108.4h0M628.9 108.4h0M637.3 108.4h0M645.8 108.4h0M654.3 108.4h0M662.8 108.4h0M671.3 108.4h0M679.8 108.4h0M688.3 108.4h0M696.8 108.4h0M705.3 108.4h0M713.8 108.4h0M722.3 108.4h0M730.8 108.4h0M739.2 108.4h0M747.7 108.4h0M756.2 108.4h0M764.7 108.4h0M773.2 108.4h0M26 98.6h0M34.5 98.6h0M43 98.6h0M238.3 98.6h0M246.8 98.6h0M255.2 98.6h0M263.7 98.6h0M272.2 98.6h0M280.7 98.6h0M289.2 98.6h0M297.7 98.6h0M399.6 98.6h0M408.1 98.6h0M416.6 98.6h0M425.1 98.6h0M433.6 98.6h0M442.1 98.6h0M450.5 98.6h0M459 98.6h0M467.5 98.6h0M476 98.6h0M484.5 98.6h0M493 98.6h0M501.5 98.6h0M510 98.6h0M518.5 98.6h0M527 98.6h0M535.5 98.6h0M543.9 98.6h0M552.4 98.6h0M560.9 98.6h0M569.4 98.6h0M577.9 98.6h0M586.4 98.6h0M594.9 98.6h0M603.4 98.6h0M611.9 98.6h0M620.4 98.6h0M628.9 98.6h0M637.3 98.6h0M645.8 98.6h0M654.3 98.6h0M662.8 98.6h0M671.3 98.6h0M679.8 98.6h0M688.3 98.6h0M696.8 98.6h0M705.3 98.6h0M713.8 98.6h0M722.3 98.6h0M730.8 98.6h0M739.2 98.6h0M747.7 98.6h0M756.2 98.6h0M764.7 98.6h0M773.2 98.6h0M26 88.7h0M34.5 88.7h0M43 88.7h0M238.3 88.7h0M246.8 88.7h0M255.2 88.7h0M263.7 88.7h0M272.2 88.7h0M280.7 88.7h0M289.2 88.7h0M391.1 88.7h0M399.6 88.7h0M408.1 88.7h0M416.6 88.7h0M425.1 88.7h0M433.6 88.7h0M442.1 88.7h0M450.5 88.7h0M459 88.7h0M467.5 88.7h0M476 88.7h0M484.5 88.7h0M493 88.7h0M501.5 88.7h0M510 88.7h0M518.5 88.7h0M527 88.7h0M535.5 88.7h0M543.9 88.7h0M552.4 88.7h0M560.9 88.7h0M569.4 88.7h0M577.9 88.7h0M586.4 88.7h0M594.9 88.7h0M603.4 88.7h0M611.9 88.7h0M620.4 88.7h0M628.9 88.7h0M637.3 88.7h0M645.8 88.7h0M654.3 88.7h0M662.8 88.7h0M671.3 88.7h0M679.8 88.7h0M688.3 88.7h0M696.8 88.7h0M705.3 88.7h0M713.8 88.7h0M722.3 88.7h0M730.8 88.7h0M739.2 88.7h0M747.7 88.7h0M756.2 88.7h0M764.7 88.7h0M773.2 88.7h0M26 78.7h0M34.5 78.7h0M43 78.7h0M246.8 78.7h0M255.2 78.7h0M263.7 78.7h0M272.2 78.7h0M280.7 78.7h0M289.2 78.7h0M297.7 78.7h0M374.1 78.7h0M382.6 78.7h0M391.1 78.7h0M399.6 78.7h0M408.1 78.7h0M416.6 78.7h0M425.1 78.7h0M433.6 78.7h0M442.1 78.7h0M450.5 78.7h0M459 78.7h0M467.5 78.7h0M476 78.7h0M484.5 78.7h0M493 78.7h0M501.5 78.7h0M510 78.7h0M518.5 78.7h0M527 78.7h0M535.5 78.7h0M543.9 78.7h0M552.4 78.7h0M560.9 78.7h0M569.4 78.7h0M577.9 78.7h0M586.4 78.7h0M594.9 78.7h0M603.4 78.7h0M611.9 78.7h0M620.4 78.7h0M628.9 78.7h0M637.3 78.7h0M645.8 78.7h0M654.3 78.7h0M662.8 78.7h0M671.3 78.7h0M679.8 78.7h0M688.3 78.7h0M696.8 78.7h0M705.3 78.7h0M713.8 78.7h0M722.3 78.7h0M730.8 78.7h0M739.2 78.7h0M747.7 78.7h0M756.2 78.7h0M764.7 78.7h0M773.2 78.7h0M246.8 68.7h0M255.2 68.7h0M263.7 68.7h0M272.2 68.7h0M280.7 68.7h0M289.2 68.7h0M297.7 68.7h0M306.2 68.7h0M314.7 68.7h0M323.2 68.7h0M340.2 68.7h0M348.6 68.7h0M357.1 68.7h0M365.6 68.7h0M374.1 68.7h0M382.6 68.7h0M391.1 68.7h0M399.6 68.7h0M408.1 68.7h0M416.6 68.7h0M425.1 68.7h0M433.6 68.7h0M442.1 68.7h0M450.5 68.7h0M459 68.7h0M467.5 68.7h0M476 68.7h0M484.5 68.7h0M493 68.7h0M501.5 68.7h0M510 68.7h0M518.5 68.7h0M527 68.7h0M535.5 68.7h0M543.9 68.7h0M552.4 68.7h0M560.9 68.7h0M569.4 68.7h0M577.9 68.7h0M586.4 68.7h0M594.9 68.7h0M603.4 68.7h0M611.9 68.7h0M620.4 68.7h0M628.9 68.7h0M637.3 68.7h0M645.8 68.7h0M654.3 68.7h0M662.8 68.7h0M671.3 68.7h0M679.8 68.7h0M688.3 68.7h0M696.8 68.7h0M705.3 68.7h0M713.8 68.7h0M722.3 68.7h0M730.8 68.7h0M739.2 68.7h0M747.7 68.7h0M756.2 68.7h0M764.7 68.7h0M773.2 68.7h0M246.8 58.7h0M255.2 58.7h0M263.7 58.7h0M272.2 58.7h0M280.7 58.7h0M289.2 58.7h0M297.7 58.7h0M306.2 58.7h0M314.7 58.7h0M323.2 58.7h0M331.7 58.7h0M340.2 58.7h0M348.6 58.7h0M357.1 58.7h0M365.6 58.7h0M374.1 58.7h0M382.6 58.7h0M391.1 58.7h0M399.6 58.7h0M408.1 58.7h0M416.6 58.7h0M425.1 58.7h0M433.6 58.7h0M442.1 58.7h0M450.5 58.7h0M459 58.7h0M467.5 58.7h0M476 58.7h0M484.5 58.7h0M493 58.7h0M501.5 58.7h0M510 58.7h0M518.5 58.7h0M527 58.7h0M535.5 58.7h0M543.9 58.7h0M552.4 58.7h0M560.9 58.7h0M569.4 58.7h0M577.9 58.7h0M586.4 58.7h0M594.9 58.7h0M603.4 58.7h0M611.9 58.7h0M620.4 58.7h0M628.9 58.7h0M637.3 58.7h0M645.8 58.7h0M654.3 58.7h0M662.8 58.7h0M671.3 58.7h0M679.8 58.7h0M688.3 58.7h0M696.8 58.7h0M705.3 58.7h0M713.8 58.7h0M722.3 58.7h0M730.8 58.7h0M739.2 58.7h0M747.7 58.7h0M756.2 58.7h0M764.7 58.7h0M773.2 58.7h0M255.2 48.6h0M263.7 48.6h0M272.2 48.6h0M280.7 48.6h0M289.2 48.6h0M297.7 48.6h0M306.2 48.6h0M314.7 48.6h0M323.2 48.6h0M331.7 48.6h0M340.2 48.6h0M348.6 48.6h0M357.1 48.6h0M365.6 48.6h0M374.1 48.6h0M382.6 48.6h0M391.1 48.6h0M399.6 48.6h0M408.1 48.6h0M416.6 48.6h0M425.1 48.6h0M433.6 48.6h0M442.1 48.6h0M450.5 48.6h0M459 48.6h0M467.5 48.6h0M476 48.6h0M484.5 48.6h0M493 48.6h0M501.5 48.6h0M510 48.6h0M518.5 48.6h0M527 48.6h0M535.5 48.6h0M543.9 48.6h0M552.4 48.6h0M560.9 48.6h0M569.4 48.6h0M577.9 48.6h0M586.4 48.6h0M594.9 48.6h0M603.4 48.6h0M611.9 48.6h0M620.4 48.6h0M628.9 48.6h0M637.3 48.6h0M645.8 48.6h0M654.3 48.6h0M662.8 48.6h0M671.3 48.6h0M679.8 48.6h0M688.3 48.6h0M696.8 48.6h0M705.3 48.6h0M713.8 48.6h0M722.3 48.6h0M730.8 48.6h0M739.2 48.6h0M747.7 48.6h0M756.2 48.6h0M764.7 48.6h0M773.2 48.6h0M255.2 38.4h0M263.7 38.4h0M272.2 38.4h0M280.7 38.4h0M289.2 38.4h0M297.7 38.4h0M306.2 38.4h0M314.7 38.4h0M323.2 38.4h0M331.7 38.4h0M340.2 38.4h0M348.6 38.4h0M357.1 38.4h0M365.6 38.4h0M374.1 38.4h0M382.6 38.4h0M391.1 38.4h0M399.6 38.4h0M408.1 38.4h0M416.6 38.4h0M425.1 38.4h0M433.6 38.4h0M442.1 38.4h0M450.5 38.4h0M459 38.4h0M467.5 38.4h0M476 38.4h0M484.5 38.4h0M493 38.4h0M501.5 38.4h0M510 38.4h0M518.5 38.4h0M527 38.4h0M535.5 38.4h0M543.9 38.4h0M552.4 38.4h0M560.9 38.4h0M569.4 38.4h0M577.9 38.4h0M586.4 38.4h0M594.9 38.4h0M603.4 38.4h0M611.9 38.4h0M620.4 38.4h0M628.9 38.4h0M637.3 38.4h0M645.8 38.4h0M654.3 38.4h0M662.8 38.4h0M671.3 38.4h0M679.8 38.4h0M688.3 38.4h0M696.8 38.4h0M705.3 38.4h0M713.8 38.4h0M722.3 38.4h0M730.8 38.4h0M739.2 38.4h0M747.7 38.4h0M756.2 38.4h0M764.7 38.4h0M773.2 38.4h0" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+          <path class="d-c" d="M51.5 297.9h0M59.9 297.9h0M68.4 297.9h0M76.9 297.9h0M85.4 297.9h0M93.9 297.9h0M102.4 297.9h0M110.9 297.9h0M119.4 297.9h0M127.9 297.9h0M136.4 297.9h0M144.9 297.9h0M153.4 297.9h0M161.8 297.9h0M170.3 297.9h0M178.8 297.9h0M187.3 297.9h0M195.8 297.9h0M204.3 297.9h0M212.8 297.9h0M221.3 297.9h0M229.8 297.9h0M238.3 297.9h0M246.8 297.9h0M255.2 297.9h0M263.7 297.9h0M272.2 297.9h0M280.7 297.9h0M51.5 288.8h0M59.9 288.8h0M68.4 288.8h0M76.9 288.8h0M85.4 288.8h0M93.9 288.8h0M102.4 288.8h0M110.9 288.8h0M119.4 288.8h0M127.9 288.8h0M136.4 288.8h0M144.9 288.8h0M153.4 288.8h0M161.8 288.8h0M170.3 288.8h0M178.8 288.8h0M187.3 288.8h0M195.8 288.8h0M204.3 288.8h0M212.8 288.8h0M221.3 288.8h0M229.8 288.8h0M238.3 288.8h0M246.8 288.8h0M255.2 288.8h0M263.7 288.8h0M272.2 288.8h0M51.5 279.6h0M59.9 279.6h0M68.4 279.6h0M76.9 279.6h0M85.4 279.6h0M93.9 279.6h0M102.4 279.6h0M110.9 279.6h0M119.4 279.6h0M127.9 279.6h0M136.4 279.6h0M144.9 279.6h0M153.4 279.6h0M161.8 279.6h0M170.3 279.6h0M178.8 279.6h0M187.3 279.6h0M195.8 279.6h0M204.3 279.6h0M212.8 279.6h0M221.3 279.6h0M229.8 279.6h0M238.3 279.6h0M246.8 279.6h0M255.2 279.6h0M263.7 279.6h0M51.5 270.3h0M59.9 270.3h0M68.4 270.3h0M76.9 270.3h0M85.4 270.3h0M93.9 270.3h0M102.4 270.3h0M110.9 270.3h0M119.4 270.3h0M127.9 270.3h0M136.4 270.3h0M144.9 270.3h0M153.4 270.3h0M161.8 270.3h0M170.3 270.3h0M178.8 270.3h0M187.3 270.3h0M195.8 270.3h0M204.3 270.3h0M212.8 270.3h0M221.3 270.3h0M229.8 270.3h0M238.3 270.3h0M246.8 270.3h0M255.2 270.3h0M51.5 261.1h0M59.9 261.1h0M68.4 261.1h0M76.9 261.1h0M85.4 261.1h0M93.9 261.1h0M102.4 261.1h0M110.9 261.1h0M119.4 261.1h0M127.9 261.1h0M136.4 261.1h0M144.9 261.1h0M153.4 261.1h0M161.8 261.1h0M170.3 261.1h0M178.8 261.1h0M187.3 261.1h0M195.8 261.1h0M204.3 261.1h0M212.8 261.1h0M221.3 261.1h0M229.8 261.1h0M238.3 261.1h0M246.8 261.1h0M255.2 261.1h0M51.5 251.8h0M59.9 251.8h0M68.4 251.8h0M76.9 251.8h0M85.4 251.8h0M93.9 251.8h0M102.4 251.8h0M110.9 251.8h0M119.4 251.8h0M127.9 251.8h0M136.4 251.8h0M144.9 251.8h0M153.4 251.8h0M161.8 251.8h0M170.3 251.8h0M178.8 251.8h0M187.3 251.8h0M195.8 251.8h0M204.3 251.8h0M212.8 251.8h0M221.3 251.8h0M229.8 251.8h0M238.3 251.8h0M246.8 251.8h0M255.2 251.8h0M51.5 242.5h0M59.9 242.5h0M68.4 242.5h0M76.9 242.5h0M85.4 242.5h0M93.9 242.5h0M102.4 242.5h0M110.9 242.5h0M119.4 242.5h0M127.9 242.5h0M136.4 242.5h0M144.9 242.5h0M153.4 242.5h0M161.8 242.5h0M170.3 242.5h0M178.8 242.5h0M187.3 242.5h0M195.8 242.5h0M204.3 242.5h0M212.8 242.5h0M221.3 242.5h0M229.8 242.5h0M238.3 242.5h0M246.8 242.5h0M51.5 233.1h0M59.9 233.1h0M68.4 233.1h0M76.9 233.1h0M85.4 233.1h0M93.9 233.1h0M102.4 233.1h0M110.9 233.1h0M119.4 233.1h0M127.9 233.1h0M136.4 233.1h0M144.9 233.1h0M153.4 233.1h0M161.8 233.1h0M170.3 233.1h0M178.8 233.1h0M187.3 233.1h0M195.8 233.1h0M204.3 233.1h0M212.8 233.1h0M221.3 233.1h0M229.8 233.1h0M238.3 233.1h0M246.8 233.1h0M51.5 223.8h0M59.9 223.8h0M68.4 223.8h0M76.9 223.8h0M85.4 223.8h0M93.9 223.8h0M102.4 223.8h0M110.9 223.8h0M119.4 223.8h0M127.9 223.8h0M136.4 223.8h0M144.9 223.8h0M153.4 223.8h0M161.8 223.8h0M170.3 223.8h0M178.8 223.8h0M187.3 223.8h0M195.8 223.8h0M204.3 223.8h0M212.8 223.8h0M221.3 223.8h0M229.8 223.8h0M238.3 223.8h0M51.5 214.3h0M59.9 214.3h0M68.4 214.3h0M76.9 214.3h0M85.4 214.3h0M93.9 214.3h0M102.4 214.3h0M110.9 214.3h0M119.4 214.3h0M127.9 214.3h0M136.4 214.3h0M144.9 214.3h0M153.4 214.3h0M161.8 214.3h0M170.3 214.3h0M178.8 214.3h0M187.3 214.3h0M195.8 214.3h0M204.3 214.3h0M212.8 214.3h0M221.3 214.3h0M229.8 214.3h0M238.3 214.3h0M51.5 204.9h0M59.9 204.9h0M68.4 204.9h0M76.9 204.9h0M85.4 204.9h0M93.9 204.9h0M102.4 204.9h0M110.9 204.9h0M119.4 204.9h0M127.9 204.9h0M136.4 204.9h0M144.9 204.9h0M153.4 204.9h0M161.8 204.9h0M170.3 204.9h0M178.8 204.9h0M187.3 204.9h0M195.8 204.9h0M204.3 204.9h0M212.8 204.9h0M221.3 204.9h0M229.8 204.9h0M51.5 195.4h0M59.9 195.4h0M68.4 195.4h0M76.9 195.4h0M85.4 195.4h0M93.9 195.4h0M102.4 195.4h0M110.9 195.4h0M119.4 195.4h0M127.9 195.4h0M136.4 195.4h0M144.9 195.4h0M153.4 195.4h0M161.8 195.4h0M170.3 195.4h0M178.8 195.4h0M187.3 195.4h0M195.8 195.4h0M204.3 195.4h0M212.8 195.4h0M221.3 195.4h0M51.5 185.9h0M59.9 185.9h0M68.4 185.9h0M76.9 185.9h0M85.4 185.9h0M93.9 185.9h0M102.4 185.9h0M110.9 185.9h0M119.4 185.9h0M127.9 185.9h0M136.4 185.9h0M144.9 185.9h0M153.4 185.9h0M161.8 185.9h0M170.3 185.9h0M178.8 185.9h0M187.3 185.9h0M195.8 185.9h0M204.3 185.9h0M212.8 185.9h0M221.3 185.9h0M51.5 176.4h0M59.9 176.4h0M68.4 176.4h0M76.9 176.4h0M85.4 176.4h0M93.9 176.4h0M102.4 176.4h0M110.9 176.4h0M119.4 176.4h0M127.9 176.4h0M136.4 176.4h0M144.9 176.4h0M153.4 176.4h0M161.8 176.4h0M170.3 176.4h0M178.8 176.4h0M187.3 176.4h0M195.8 176.4h0M204.3 176.4h0M212.8 176.4h0M51.5 166.8h0M59.9 166.8h0M68.4 166.8h0M76.9 166.8h0M85.4 166.8h0M93.9 166.8h0M102.4 166.8h0M110.9 166.8h0M119.4 166.8h0M127.9 166.8h0M136.4 166.8h0M144.9 166.8h0M153.4 166.8h0M161.8 166.8h0M170.3 166.8h0M178.8 166.8h0M187.3 166.8h0M195.8 166.8h0M204.3 166.8h0M212.8 166.8h0M229.8 166.8h0M51.5 157.1h0M59.9 157.1h0M68.4 157.1h0M76.9 157.1h0M85.4 157.1h0M93.9 157.1h0M102.4 157.1h0M110.9 157.1h0M119.4 157.1h0M127.9 157.1h0M136.4 157.1h0M144.9 157.1h0M153.4 157.1h0M161.8 157.1h0M170.3 157.1h0M178.8 157.1h0M187.3 157.1h0M195.8 157.1h0M204.3 157.1h0M221.3 157.1h0M229.8 157.1h0M51.5 147.5h0M59.9 147.5h0M68.4 147.5h0M76.9 147.5h0M85.4 147.5h0M93.9 147.5h0M102.4 147.5h0M110.9 147.5h0M119.4 147.5h0M127.9 147.5h0M136.4 147.5h0M144.9 147.5h0M153.4 147.5h0M161.8 147.5h0M170.3 147.5h0M178.8 147.5h0M187.3 147.5h0M195.8 147.5h0M204.3 147.5h0M212.8 147.5h0M221.3 147.5h0M229.8 147.5h0M238.3 147.5h0M51.5 137.8h0M59.9 137.8h0M68.4 137.8h0M76.9 137.8h0M85.4 137.8h0M93.9 137.8h0M102.4 137.8h0M110.9 137.8h0M119.4 137.8h0M127.9 137.8h0M136.4 137.8h0M144.9 137.8h0M153.4 137.8h0M161.8 137.8h0M170.3 137.8h0M178.8 137.8h0M187.3 137.8h0M195.8 137.8h0M212.8 137.8h0M221.3 137.8h0M229.8 137.8h0M238.3 137.8h0M51.5 128h0M59.9 128h0M68.4 128h0M76.9 128h0M85.4 128h0M93.9 128h0M102.4 128h0M110.9 128h0M119.4 128h0M127.9 128h0M136.4 128h0M144.9 128h0M153.4 128h0M161.8 128h0M170.3 128h0M178.8 128h0M187.3 128h0M204.3 128h0M212.8 128h0M221.3 128h0M229.8 128h0M238.3 128h0M43 118.3h0M51.5 118.3h0M59.9 118.3h0M68.4 118.3h0M76.9 118.3h0M85.4 118.3h0M93.9 118.3h0M102.4 118.3h0M110.9 118.3h0M119.4 118.3h0M127.9 118.3h0M136.4 118.3h0M144.9 118.3h0M153.4 118.3h0M161.8 118.3h0M170.3 118.3h0M178.8 118.3h0M187.3 118.3h0M195.8 118.3h0M204.3 118.3h0M212.8 118.3h0M221.3 118.3h0M229.8 118.3h0M238.3 118.3h0M43 108.4h0M51.5 108.4h0M59.9 108.4h0M68.4 108.4h0M76.9 108.4h0M85.4 108.4h0M93.9 108.4h0M102.4 108.4h0M110.9 108.4h0M119.4 108.4h0M127.9 108.4h0M136.4 108.4h0M144.9 108.4h0M153.4 108.4h0M161.8 108.4h0M170.3 108.4h0M178.8 108.4h0M187.3 108.4h0M195.8 108.4h0M204.3 108.4h0M212.8 108.4h0M221.3 108.4h0M229.8 108.4h0M238.3 108.4h0M51.5 98.6h0M59.9 98.6h0M68.4 98.6h0M76.9 98.6h0M85.4 98.6h0M93.9 98.6h0M102.4 98.6h0M110.9 98.6h0M119.4 98.6h0M127.9 98.6h0M136.4 98.6h0M144.9 98.6h0M153.4 98.6h0M161.8 98.6h0M170.3 98.6h0M178.8 98.6h0M187.3 98.6h0M195.8 98.6h0M204.3 98.6h0M212.8 98.6h0M221.3 98.6h0M229.8 98.6h0M51.5 88.7h0M59.9 88.7h0M68.4 88.7h0M76.9 88.7h0M85.4 88.7h0M93.9 88.7h0M153.4 88.7h0M161.8 88.7h0M170.3 88.7h0M178.8 88.7h0M229.8 88.7h0M408.1 414.9h0M408.1 406.1h0M493 406.1h0M399.6 397.2h0M408.1 397.2h0M425.1 397.2h0M459 397.2h0M467.5 397.2h0M476 397.2h0M484.5 397.2h0M493 397.2h0M501.5 397.2h0M391.1 388.3h0M399.6 388.3h0M408.1 388.3h0M416.6 388.3h0M425.1 388.3h0M433.6 388.3h0M442.1 388.3h0M450.5 388.3h0M459 388.3h0M467.5 388.3h0M476 388.3h0M484.5 388.3h0M493 388.3h0M501.5 388.3h0M382.6 379.3h0M391.1 379.3h0M399.6 379.3h0M408.1 379.3h0M416.6 379.3h0M425.1 379.3h0M433.6 379.3h0M442.1 379.3h0M450.5 379.3h0M459 379.3h0M467.5 379.3h0M476 379.3h0M484.5 379.3h0M493 379.3h0M501.5 379.3h0M510 379.3h0M382.6 370.4h0M391.1 370.4h0M399.6 370.4h0M408.1 370.4h0M416.6 370.4h0M425.1 370.4h0M433.6 370.4h0M442.1 370.4h0M450.5 370.4h0M459 370.4h0M467.5 370.4h0M476 370.4h0M484.5 370.4h0M493 370.4h0M501.5 370.4h0M510 370.4h0M518.5 370.4h0M527 370.4h0M535.5 370.4h0M374.1 361.4h0M382.6 361.4h0M391.1 361.4h0M399.6 361.4h0M408.1 361.4h0M416.6 361.4h0M425.1 361.4h0M433.6 361.4h0M442.1 361.4h0M450.5 361.4h0M459 361.4h0M467.5 361.4h0M476 361.4h0M484.5 361.4h0M493 361.4h0M501.5 361.4h0M510 361.4h0M518.5 361.4h0M527 361.4h0M535.5 361.4h0M543.9 361.4h0M552.4 361.4h0M560.9 361.4h0M569.4 361.4h0M577.9 361.4h0M586.4 361.4h0M594.9 361.4h0M374.1 352.4h0M382.6 352.4h0M391.1 352.4h0M399.6 352.4h0M408.1 352.4h0M416.6 352.4h0M425.1 352.4h0M433.6 352.4h0M442.1 352.4h0M450.5 352.4h0M459 352.4h0M467.5 352.4h0M476 352.4h0M484.5 352.4h0M493 352.4h0M501.5 352.4h0M510 352.4h0M518.5 352.4h0M527 352.4h0M535.5 352.4h0M543.9 352.4h0M552.4 352.4h0M560.9 352.4h0M569.4 352.4h0M577.9 352.4h0M586.4 352.4h0M594.9 352.4h0M603.4 352.4h0M611.9 352.4h0M620.4 352.4h0M365.6 343.4h0M374.1 343.4h0M382.6 343.4h0M391.1 343.4h0M399.6 343.4h0M408.1 343.4h0M416.6 343.4h0M425.1 343.4h0M433.6 343.4h0M442.1 343.4h0M450.5 343.4h0M459 343.4h0M467.5 343.4h0M476 343.4h0M484.5 343.4h0M493 343.4h0M501.5 343.4h0M510 343.4h0M518.5 343.4h0M527 343.4h0M535.5 343.4h0M543.9 343.4h0M552.4 343.4h0M560.9 343.4h0M569.4 343.4h0M577.9 343.4h0M586.4 343.4h0M594.9 343.4h0M603.4 343.4h0M611.9 343.4h0M620.4 343.4h0M628.9 343.4h0M637.3 343.4h0M645.8 343.4h0M348.6 334.4h0M357.1 334.4h0M365.6 334.4h0M374.1 334.4h0M382.6 334.4h0M391.1 334.4h0M399.6 334.4h0M408.1 334.4h0M416.6 334.4h0M425.1 334.4h0M433.6 334.4h0M442.1 334.4h0M450.5 334.4h0M459 334.4h0M467.5 334.4h0M476 334.4h0M484.5 334.4h0M493 334.4h0M501.5 334.4h0M510 334.4h0M518.5 334.4h0M527 334.4h0M535.5 334.4h0M543.9 334.4h0M552.4 334.4h0M560.9 334.4h0M569.4 334.4h0M577.9 334.4h0M586.4 334.4h0M594.9 334.4h0M603.4 334.4h0M611.9 334.4h0M620.4 334.4h0M628.9 334.4h0M637.3 334.4h0M645.8 334.4h0M654.3 334.4h0M340.2 325.3h0M348.6 325.3h0M357.1 325.3h0M365.6 325.3h0M374.1 325.3h0M382.6 325.3h0M391.1 325.3h0M399.6 325.3h0M408.1 325.3h0M416.6 325.3h0M425.1 325.3h0M433.6 325.3h0M442.1 325.3h0M450.5 325.3h0M459 325.3h0M467.5 325.3h0M476 325.3h0M484.5 325.3h0M493 325.3h0M501.5 325.3h0M510 325.3h0M518.5 325.3h0M527 325.3h0M535.5 325.3h0M543.9 325.3h0M552.4 325.3h0M560.9 325.3h0M569.4 325.3h0M577.9 325.3h0M586.4 325.3h0M594.9 325.3h0M603.4 325.3h0M611.9 325.3h0M620.4 325.3h0M628.9 325.3h0M637.3 325.3h0M645.8 325.3h0M654.3 325.3h0M340.2 316.2h0M348.6 316.2h0M357.1 316.2h0M365.6 316.2h0M374.1 316.2h0M382.6 316.2h0M391.1 316.2h0M399.6 316.2h0M408.1 316.2h0M416.6 316.2h0M425.1 316.2h0M433.6 316.2h0M442.1 316.2h0M450.5 316.2h0M459 316.2h0M467.5 316.2h0M476 316.2h0M484.5 316.2h0M493 316.2h0M501.5 316.2h0M510 316.2h0M518.5 316.2h0M527 316.2h0M535.5 316.2h0M543.9 316.2h0M552.4 316.2h0M560.9 316.2h0M569.4 316.2h0M577.9 316.2h0M586.4 316.2h0M594.9 316.2h0M603.4 316.2h0M611.9 316.2h0M620.4 316.2h0M628.9 316.2h0M637.3 316.2h0M645.8 316.2h0M654.3 316.2h0M340.2 307.1h0M348.6 307.1h0M357.1 307.1h0M365.6 307.1h0M374.1 307.1h0M382.6 307.1h0M391.1 307.1h0M399.6 307.1h0M408.1 307.1h0M416.6 307.1h0M425.1 307.1h0M433.6 307.1h0M442.1 307.1h0M450.5 307.1h0M459 307.1h0M467.5 307.1h0M476 307.1h0M484.5 307.1h0M493 307.1h0M501.5 307.1h0M510 307.1h0M518.5 307.1h0M527 307.1h0M535.5 307.1h0M543.9 307.1h0M552.4 307.1h0M560.9 307.1h0M569.4 307.1h0M577.9 307.1h0M586.4 307.1h0M594.9 307.1h0M603.4 307.1h0M611.9 307.1h0M620.4 307.1h0M628.9 307.1h0M637.3 307.1h0M645.8 307.1h0M654.3 307.1h0M662.8 307.1h0M331.7 297.9h0M340.2 297.9h0M348.6 297.9h0M357.1 297.9h0M365.6 297.9h0M374.1 297.9h0M382.6 297.9h0M391.1 297.9h0M399.6 297.9h0M408.1 297.9h0M416.6 297.9h0M425.1 297.9h0M433.6 297.9h0M442.1 297.9h0M450.5 297.9h0M459 297.9h0M467.5 297.9h0M476 297.9h0M484.5 297.9h0M493 297.9h0M501.5 297.9h0M510 297.9h0M518.5 297.9h0M527 297.9h0M535.5 297.9h0M543.9 297.9h0M552.4 297.9h0M560.9 297.9h0M569.4 297.9h0M577.9 297.9h0M586.4 297.9h0M594.9 297.9h0M603.4 297.9h0M611.9 297.9h0M620.4 297.9h0M628.9 297.9h0M637.3 297.9h0M645.8 297.9h0M654.3 297.9h0M662.8 297.9h0M331.7 288.8h0M340.2 288.8h0M348.6 288.8h0M357.1 288.8h0M365.6 288.8h0M374.1 288.8h0M382.6 288.8h0M391.1 288.8h0M399.6 288.8h0M408.1 288.8h0M416.6 288.8h0M425.1 288.8h0M433.6 288.8h0M442.1 288.8h0M450.5 288.8h0M459 288.8h0M467.5 288.8h0M476 288.8h0M484.5 288.8h0M493 288.8h0M501.5 288.8h0M510 288.8h0M518.5 288.8h0M527 288.8h0M535.5 288.8h0M543.9 288.8h0M552.4 288.8h0M560.9 288.8h0M569.4 288.8h0M577.9 288.8h0M586.4 288.8h0M594.9 288.8h0M603.4 288.8h0M611.9 288.8h0M620.4 288.8h0M628.9 288.8h0M637.3 288.8h0M645.8 288.8h0M654.3 288.8h0M331.7 279.6h0M340.2 279.6h0M348.6 279.6h0M357.1 279.6h0M365.6 279.6h0M374.1 279.6h0M382.6 279.6h0M391.1 279.6h0M399.6 279.6h0M408.1 279.6h0M416.6 279.6h0M425.1 279.6h0M433.6 279.6h0M442.1 279.6h0M450.5 279.6h0M459 279.6h0M467.5 279.6h0M476 279.6h0M484.5 279.6h0M493 279.6h0M501.5 279.6h0M510 279.6h0M518.5 279.6h0M527 279.6h0M535.5 279.6h0M543.9 279.6h0M552.4 279.6h0M560.9 279.6h0M569.4 279.6h0M577.9 279.6h0M586.4 279.6h0M594.9 279.6h0M603.4 279.6h0M611.9 279.6h0M331.7 270.3h0M340.2 270.3h0M348.6 270.3h0M357.1 270.3h0M365.6 270.3h0M374.1 270.3h0M382.6 270.3h0M391.1 270.3h0M399.6 270.3h0M408.1 270.3h0M416.6 270.3h0M425.1 270.3h0M433.6 270.3h0M442.1 270.3h0M450.5 270.3h0M459 270.3h0M467.5 270.3h0M476 270.3h0M484.5 270.3h0M493 270.3h0M501.5 270.3h0M510 270.3h0M518.5 270.3h0M527 270.3h0M535.5 270.3h0M543.9 270.3h0M552.4 270.3h0M560.9 270.3h0M569.4 270.3h0M577.9 270.3h0M586.4 270.3h0M594.9 270.3h0M323.2 261.1h0M331.7 261.1h0M340.2 261.1h0M348.6 261.1h0M357.1 261.1h0M365.6 261.1h0M374.1 261.1h0M382.6 261.1h0M391.1 261.1h0M399.6 261.1h0M408.1 261.1h0M416.6 261.1h0M425.1 261.1h0M433.6 261.1h0M442.1 261.1h0M450.5 261.1h0M459 261.1h0M467.5 261.1h0M476 261.1h0M484.5 261.1h0M493 261.1h0M501.5 261.1h0M510 261.1h0M518.5 261.1h0M527 261.1h0M535.5 261.1h0M543.9 261.1h0M552.4 261.1h0M560.9 261.1h0M569.4 261.1h0M577.9 261.1h0M586.4 261.1h0M314.7 251.8h0M323.2 251.8h0M331.7 251.8h0M340.2 251.8h0M348.6 251.8h0M357.1 251.8h0M365.6 251.8h0M374.1 251.8h0M382.6 251.8h0M391.1 251.8h0M399.6 251.8h0M408.1 251.8h0M416.6 251.8h0M425.1 251.8h0M433.6 251.8h0M442.1 251.8h0M450.5 251.8h0M459 251.8h0M467.5 251.8h0M476 251.8h0M484.5 251.8h0M493 251.8h0M501.5 251.8h0M510 251.8h0M518.5 251.8h0M527 251.8h0M535.5 251.8h0M543.9 251.8h0M552.4 251.8h0M560.9 251.8h0M569.4 251.8h0M577.9 251.8h0M297.7 242.5h0M306.2 242.5h0M314.7 242.5h0M323.2 242.5h0M331.7 242.5h0M340.2 242.5h0M348.6 242.5h0M357.1 242.5h0M365.6 242.5h0M374.1 242.5h0M382.6 242.5h0M391.1 242.5h0M399.6 242.5h0M408.1 242.5h0M416.6 242.5h0M425.1 242.5h0M433.6 242.5h0M442.1 242.5h0M450.5 242.5h0M459 242.5h0M467.5 242.5h0M476 242.5h0M484.5 242.5h0M493 242.5h0M501.5 242.5h0M510 242.5h0M518.5 242.5h0M527 242.5h0M535.5 242.5h0M543.9 242.5h0M552.4 242.5h0M560.9 242.5h0M569.4 242.5h0M577.9 242.5h0M297.7 233.1h0M306.2 233.1h0M314.7 233.1h0M323.2 233.1h0M331.7 233.1h0M340.2 233.1h0M348.6 233.1h0M357.1 233.1h0M365.6 233.1h0M374.1 233.1h0M382.6 233.1h0M391.1 233.1h0M399.6 233.1h0M408.1 233.1h0M416.6 233.1h0M425.1 233.1h0M433.6 233.1h0M442.1 233.1h0M450.5 233.1h0M459 233.1h0M467.5 233.1h0M476 233.1h0M484.5 233.1h0M493 233.1h0M501.5 233.1h0M510 233.1h0M518.5 233.1h0M527 233.1h0M535.5 233.1h0M543.9 233.1h0M552.4 233.1h0M560.9 233.1h0M297.7 223.8h0M306.2 223.8h0M314.7 223.8h0M323.2 223.8h0M331.7 223.8h0M340.2 223.8h0M348.6 223.8h0M357.1 223.8h0M365.6 223.8h0M374.1 223.8h0M382.6 223.8h0M391.1 223.8h0M399.6 223.8h0M408.1 223.8h0M416.6 223.8h0M425.1 223.8h0M433.6 223.8h0M442.1 223.8h0M450.5 223.8h0M459 223.8h0M467.5 223.8h0M476 223.8h0M484.5 223.8h0M493 223.8h0M501.5 223.8h0M510 223.8h0M518.5 223.8h0M527 223.8h0M535.5 223.8h0M543.9 223.8h0M552.4 223.8h0M560.9 223.8h0M289.2 214.3h0M297.7 214.3h0M306.2 214.3h0M314.7 214.3h0M323.2 214.3h0M331.7 214.3h0M340.2 214.3h0M348.6 214.3h0M357.1 214.3h0M365.6 214.3h0M374.1 214.3h0M382.6 214.3h0M391.1 214.3h0M399.6 214.3h0M408.1 214.3h0M416.6 214.3h0M425.1 214.3h0M433.6 214.3h0M442.1 214.3h0M450.5 214.3h0M459 214.3h0M467.5 214.3h0M476 214.3h0M484.5 214.3h0M493 214.3h0M501.5 214.3h0M510 214.3h0M518.5 214.3h0M527 214.3h0M535.5 214.3h0M543.9 214.3h0M552.4 214.3h0M280.7 204.9h0M289.2 204.9h0M297.7 204.9h0M306.2 204.9h0M314.7 204.9h0M323.2 204.9h0M331.7 204.9h0M340.2 204.9h0M348.6 204.9h0M357.1 204.9h0M365.6 204.9h0M374.1 204.9h0M382.6 204.9h0M391.1 204.9h0M399.6 204.9h0M408.1 204.9h0M416.6 204.9h0M425.1 204.9h0M433.6 204.9h0M442.1 204.9h0M450.5 204.9h0M459 204.9h0M467.5 204.9h0M476 204.9h0M484.5 204.9h0M493 204.9h0M501.5 204.9h0M510 204.9h0M518.5 204.9h0M527 204.9h0M535.5 204.9h0M543.9 204.9h0M552.4 204.9h0M280.7 195.4h0M289.2 195.4h0M297.7 195.4h0M306.2 195.4h0M314.7 195.4h0M323.2 195.4h0M331.7 195.4h0M340.2 195.4h0M348.6 195.4h0M357.1 195.4h0M365.6 195.4h0M374.1 195.4h0M382.6 195.4h0M391.1 195.4h0M399.6 195.4h0M408.1 195.4h0M416.6 195.4h0M425.1 195.4h0M433.6 195.4h0M442.1 195.4h0M450.5 195.4h0M459 195.4h0M467.5 195.4h0M476 195.4h0M484.5 195.4h0M493 195.4h0M501.5 195.4h0M510 195.4h0M518.5 195.4h0M527 195.4h0M535.5 195.4h0M543.9 195.4h0M272.2 185.9h0M280.7 185.9h0M289.2 185.9h0M297.7 185.9h0M306.2 185.9h0M314.7 185.9h0M323.2 185.9h0M331.7 185.9h0M340.2 185.9h0M348.6 185.9h0M357.1 185.9h0M365.6 185.9h0M374.1 185.9h0M382.6 185.9h0M391.1 185.9h0M399.6 185.9h0M408.1 185.9h0M416.6 185.9h0M425.1 185.9h0M433.6 185.9h0M442.1 185.9h0M450.5 185.9h0M459 185.9h0M467.5 185.9h0M476 185.9h0M484.5 185.9h0M493 185.9h0M501.5 185.9h0M510 185.9h0M518.5 185.9h0M527 185.9h0M535.5 185.9h0M543.9 185.9h0M263.7 176.4h0M272.2 176.4h0M280.7 176.4h0M289.2 176.4h0M297.7 176.4h0M306.2 176.4h0M314.7 176.4h0M323.2 176.4h0M331.7 176.4h0M340.2 176.4h0M348.6 176.4h0M357.1 176.4h0M365.6 176.4h0M374.1 176.4h0M382.6 176.4h0M391.1 176.4h0M399.6 176.4h0M408.1 176.4h0M416.6 176.4h0M425.1 176.4h0M433.6 176.4h0M442.1 176.4h0M450.5 176.4h0M459 176.4h0M467.5 176.4h0M476 176.4h0M484.5 176.4h0M493 176.4h0M501.5 176.4h0M510 176.4h0M518.5 176.4h0M527 176.4h0M255.2 166.8h0M263.7 166.8h0M272.2 166.8h0M280.7 166.8h0M289.2 166.8h0M297.7 166.8h0M306.2 166.8h0M314.7 166.8h0M323.2 166.8h0M331.7 166.8h0M340.2 166.8h0M348.6 166.8h0M357.1 166.8h0M365.6 166.8h0M374.1 166.8h0M382.6 166.8h0M391.1 166.8h0M399.6 166.8h0M408.1 166.8h0M416.6 166.8h0M425.1 166.8h0M433.6 166.8h0M442.1 166.8h0M450.5 166.8h0M459 166.8h0M467.5 166.8h0M476 166.8h0M484.5 166.8h0M493 166.8h0M501.5 166.8h0M510 166.8h0M518.5 166.8h0M527 166.8h0M246.8 157.1h0M255.2 157.1h0M263.7 157.1h0M272.2 157.1h0M280.7 157.1h0M289.2 157.1h0M297.7 157.1h0M306.2 157.1h0M314.7 157.1h0M323.2 157.1h0M331.7 157.1h0M340.2 157.1h0M348.6 157.1h0M357.1 157.1h0M365.6 157.1h0M374.1 157.1h0M382.6 157.1h0M391.1 157.1h0M399.6 157.1h0M408.1 157.1h0M416.6 157.1h0M425.1 157.1h0M433.6 157.1h0M442.1 157.1h0M450.5 157.1h0M459 157.1h0M467.5 157.1h0M476 157.1h0M484.5 157.1h0M493 157.1h0M501.5 157.1h0M510 157.1h0M518.5 157.1h0M246.8 147.5h0M255.2 147.5h0M263.7 147.5h0M272.2 147.5h0M280.7 147.5h0M289.2 147.5h0M297.7 147.5h0M306.2 147.5h0M314.7 147.5h0M323.2 147.5h0M331.7 147.5h0M340.2 147.5h0M348.6 147.5h0M357.1 147.5h0M365.6 147.5h0M374.1 147.5h0M382.6 147.5h0M391.1 147.5h0M399.6 147.5h0M408.1 147.5h0M416.6 147.5h0M425.1 147.5h0M433.6 147.5h0M442.1 147.5h0M450.5 147.5h0M459 147.5h0M467.5 147.5h0M476 147.5h0M484.5 147.5h0M493 147.5h0M501.5 147.5h0M246.8 137.8h0M255.2 137.8h0M263.7 137.8h0M272.2 137.8h0M280.7 137.8h0M289.2 137.8h0M297.7 137.8h0M306.2 137.8h0M314.7 137.8h0M323.2 137.8h0M331.7 137.8h0M340.2 137.8h0M348.6 137.8h0M357.1 137.8h0M365.6 137.8h0M374.1 137.8h0M382.6 137.8h0M391.1 137.8h0M399.6 137.8h0M408.1 137.8h0M416.6 137.8h0M425.1 137.8h0M433.6 137.8h0M442.1 137.8h0M450.5 137.8h0M280.7 128h0M289.2 128h0M297.7 128h0M306.2 128h0M314.7 128h0M323.2 128h0M331.7 128h0M340.2 128h0M348.6 128h0M357.1 128h0M365.6 128h0M374.1 128h0M382.6 128h0M391.1 128h0M399.6 128h0M408.1 128h0M416.6 128h0M425.1 128h0M433.6 128h0M297.7 118.3h0M306.2 118.3h0M314.7 118.3h0M323.2 118.3h0M331.7 118.3h0M340.2 118.3h0M348.6 118.3h0M357.1 118.3h0M365.6 118.3h0M374.1 118.3h0M382.6 118.3h0M391.1 118.3h0M399.6 118.3h0M408.1 118.3h0M416.6 118.3h0M306.2 108.4h0M314.7 108.4h0M323.2 108.4h0M331.7 108.4h0M340.2 108.4h0M348.6 108.4h0M357.1 108.4h0M365.6 108.4h0M374.1 108.4h0M382.6 108.4h0M391.1 108.4h0M399.6 108.4h0M408.1 108.4h0M306.2 98.6h0M314.7 98.6h0M323.2 98.6h0M331.7 98.6h0M340.2 98.6h0M348.6 98.6h0M357.1 98.6h0M365.6 98.6h0M374.1 98.6h0M382.6 98.6h0M391.1 98.6h0M297.7 88.7h0M306.2 88.7h0M314.7 88.7h0M323.2 88.7h0M331.7 88.7h0M340.2 88.7h0M348.6 88.7h0M357.1 88.7h0M365.6 88.7h0M374.1 88.7h0M382.6 88.7h0M306.2 78.7h0M314.7 78.7h0M323.2 78.7h0M331.7 78.7h0M340.2 78.7h0M348.6 78.7h0M357.1 78.7h0M365.6 78.7h0M331.7 68.7h0M611.9 406.1h0M620.4 406.1h0M628.9 406.1h0M611.9 397.2h0M620.4 397.2h0M628.9 397.2h0M637.3 397.2h0M645.8 397.2h0M654.3 397.2h0M603.4 388.3h0M611.9 388.3h0M620.4 388.3h0M628.9 388.3h0M637.3 388.3h0M645.8 388.3h0M654.3 388.3h0M603.4 379.3h0M611.9 379.3h0M620.4 379.3h0M628.9 379.3h0M637.3 379.3h0M645.8 379.3h0M654.3 379.3h0M662.8 379.3h0M671.3 379.3h0M679.8 379.3h0M594.9 370.4h0M603.4 370.4h0M611.9 370.4h0M620.4 370.4h0M628.9 370.4h0M637.3 370.4h0M645.8 370.4h0M654.3 370.4h0M662.8 370.4h0M671.3 370.4h0M679.8 370.4h0M603.4 361.4h0M611.9 361.4h0M620.4 361.4h0M628.9 361.4h0M637.3 361.4h0M645.8 361.4h0M654.3 361.4h0M662.8 361.4h0M671.3 361.4h0M679.8 361.4h0M688.3 361.4h0M696.8 361.4h0M705.3 361.4h0M628.9 352.4h0M637.3 352.4h0M645.8 352.4h0M654.3 352.4h0M662.8 352.4h0M671.3 352.4h0M679.8 352.4h0M688.3 352.4h0M696.8 352.4h0M705.3 352.4h0M654.3 343.4h0M662.8 343.4h0M671.3 343.4h0M679.8 343.4h0M688.3 343.4h0M696.8 343.4h0M705.3 343.4h0M662.8 334.4h0M671.3 334.4h0M679.8 334.4h0M688.3 334.4h0M696.8 334.4h0M705.3 334.4h0M662.8 325.3h0M671.3 325.3h0M679.8 325.3h0M688.3 325.3h0M696.8 325.3h0M705.3 325.3h0M713.8 325.3h0M722.3 325.3h0M662.8 316.2h0M671.3 316.2h0M679.8 316.2h0M688.3 316.2h0M696.8 316.2h0M705.3 316.2h0M713.8 316.2h0M722.3 316.2h0M730.8 316.2h0M671.3 307.1h0M679.8 307.1h0M688.3 307.1h0M696.8 307.1h0M705.3 307.1h0M713.8 307.1h0M722.3 307.1h0M730.8 307.1h0M739.2 307.1h0M671.3 297.9h0M679.8 297.9h0M688.3 297.9h0M696.8 297.9h0M705.3 297.9h0M713.8 297.9h0M722.3 297.9h0M730.8 297.9h0M739.2 297.9h0M662.8 288.8h0M671.3 288.8h0M679.8 288.8h0M688.3 288.8h0M696.8 288.8h0M705.3 288.8h0M713.8 288.8h0M722.3 288.8h0M730.8 288.8h0M739.2 288.8h0M747.7 288.8h0M662.8 279.6h0M671.3 279.6h0M679.8 279.6h0M688.3 279.6h0M696.8 279.6h0M705.3 279.6h0M713.8 279.6h0M722.3 279.6h0M730.8 279.6h0M739.2 279.6h0M662.8 270.3h0M671.3 270.3h0M679.8 270.3h0M688.3 270.3h0M696.8 270.3h0M705.3 270.3h0M713.8 270.3h0M722.3 270.3h0M730.8 270.3h0M662.8 261.1h0M671.3 261.1h0M679.8 261.1h0M688.3 261.1h0M696.8 261.1h0M705.3 261.1h0M713.8 261.1h0M679.8 251.8h0M688.3 251.8h0M671.3 242.5h0M679.8 242.5h0M671.3 233.1h0M679.8 233.1h0M679.8 214.3h0M679.8 204.9h0" stroke-width="4.6" stroke-linecap="round" fill="none"/>
+          <text class="ctry" x="95" y="215">EGYPT</text>
+          <text class="ctry" x="400" y="300">SAUDI ARABIA</text>
+          <text class="ctry" x="690" y="345">OMAN</text>
+          <g id="pins"></g>
+        </svg>
+      </div>
+      <ul class="places" id="places"></ul>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="ch">CH 4+000 · From site</div>
+      <h2>On the ground</h2>
+      <p>On site and in coordination meetings, then the works themselves in Oman, Saudi Arabia and Egypt: Salalah, Sohar–Al Dhahirah, Dakhiliyah, Riyadh, Shaqra and Samanoud. Scroll sideways.</p>
+    </div>
+    <div class="strip" tabindex="0" aria-label="Site photos">
+      <figure><img src="img/me-mirbat.jpg" alt="Hossam explaining the reservoir works beside the rebar cage during a concrete pour" style="object-position:50% 35%"><figcaption>Walking a visitor through the reservoir pour · Mirbat</figcaption></figure>
+      <figure><img src="img/me-night.jpg" alt="Hossam with consultant and project engineers on a night shutdown beside a crane" style="object-position:50% 40%"><figcaption>Night shutdown and tie-in with the consultant team · Salalah</figcaption></figure>
+      <figure><img src="img/me-meeting.jpg" alt="Coordination meeting around a network sketch with client and site teams"><figcaption>Coordination meeting on the Saadah &amp; Sahlnout connections · Jun 2025</figcaption></figure>
+      <figure><img src="img/me-site.jpg" alt="Hossam on a site inspection with client and consultant engineers" style="object-position:30% 40%"><figcaption>Site inspection with client and consultant engineers</figcaption></figure>
+      <figure><img src="img/sll-tiein.jpg" alt="Crew bolting a valve assembly onto a live main"><figcaption>Valve tie-in on a live main · Salalah, Jun 2025</figcaption></figure>
+      <figure><img src="img/sll-reservoir.jpg" alt="Reservoir walls with formwork and reinforcement"><figcaption>Reservoir walls and formwork · Mirbat, Dec 2025</figcaption></figure>
+      <figure><img src="img/sll-ashoor.jpg" alt="Panorama of excavation inside the Ashoor pump station compound"><figcaption>Excavation inside the Ashoor pump station · May 2025</figcaption></figure>
+      <figure><img src="img/sll-valve.jpg" alt="Blue DN1000 PN16 valve assembly in a trench" loading="lazy"><figcaption>DN1000 PN16 valve assembly</figcaption></figure>
+      <figure><img src="img/sll-trench.jpg" alt="Large-diameter pipe lowered into a deep trench" loading="lazy"><figcaption>Large-diameter main laying · Salalah, Jun 2025</figcaption></figure>
+      <figure><img src="img/sll-rebar.jpg" alt="Crew on base-slab reinforcement before the pour" loading="lazy"><figcaption>Base-slab reinforcement before the pour</figcaption></figure>
+      <figure><img src="img/soh-domes.jpg" alt="Steel reservoirs with aluminium domes and pump station" loading="lazy"><figcaption>Steel reservoirs and pump station · Sohar–Al Dhahirah</figcaption></figure>
+      <figure><img src="img/soh-ps.jpg" alt="Pump station with surge vessels in a mountain valley" loading="lazy"><figcaption>Pump station with surge vessels · Al Dhahirah corridor</figcaption></figure>
+      <figure><img src="img/soh-dome.jpg" alt="Aerial view of a domed steel reservoir" loading="lazy"><figcaption>Steel reservoir under dome erection · Sohar–Al Dhahirah</figcaption></figure>
+      <figure><img src="img/dak-trench.jpg" alt="Excavators and a rock breaker cutting the trench for a transmission main through a palm grove" loading="lazy"><figcaption>Rock trench for the DN1400 main through a wadi palm grove · Dakhiliyah</figcaption></figure>
+      <figure><img src="img/dak-rebar.jpg" alt="Steel fixers tying ground-beam reinforcement" loading="lazy"><figcaption>Ground-beam reinforcement, chlorination building · Dakhiliyah</figcaption></figure>
+      <figure><img src="img/dak-blinding.jpg" alt="Ground beams cast between column starters" loading="lazy"><figcaption>Ground beams and column starters · Dakhiliyah</figcaption></figure>
+      <figure><img src="img/ryd-trench.jpg" alt="Sewer trench along a residential street with VC pipe being laid" loading="lazy"><figcaption>VC sewer laying in a residential street · Riyadh Contract 8</figcaption></figure>
+      <figure><img src="img/ryd-manhole.jpg" alt="Precast manhole ring set in an excavation" loading="lazy"><figcaption>Precast manhole installation · Riyadh</figcaption></figure>
+      <figure><img src="img/ryd-mh-inside.jpg" alt="View down a finished manhole showing the benching and channel" loading="lazy"><figcaption>Finished manhole, coated walls and benching · Riyadh</figcaption></figure>
+      <figure><img src="img/ryd-signage.jpg" alt="Work zone with barriers, stop signs and the contract board" loading="lazy"><figcaption>Traffic management and contract board · NWC, Riyadh</figcaption></figure>
+      <figure><img src="img/shq-line.jpg" alt="Long straight run of sewer pipe bedded in a deep trench, with a level on a tripod beside it" loading="lazy"><figcaption>Sewer line on line and level · Shaqra Phase 6</figcaption></figure>
+      <figure><img src="img/shq-mh-conn.jpg" alt="Large sewer pipe connected into a precast manhole, supported by timber" loading="lazy"><figcaption>Main connection into a precast manhole · Shaqra</figcaption></figure>
+      <figure><img src="img/shq-trench.jpg" alt="Worker standing on a newly laid sewer in a deep rock trench" loading="lazy"><figcaption>Deep rock trench, pipe laid and checked · Shaqra</figcaption></figure>
+      <figure><img src="img/shq-manhole.jpg" alt="Precast manhole set in an excavation beside a highway" loading="lazy"><figcaption>Manhole beside the highway · Shaqra</figcaption></figure>
+      <figure><img src="img/fld-slab.jpg" alt="Crew pouring and vibrating a box culvert base slab over reinforcement" loading="lazy"><figcaption>Box culvert base slab pour · North Riyadh flood mitigation</figcaption></figure>
+      <figure><img src="img/fld-screed.jpg" alt="Workers screeding concrete between vertical rock trench walls" loading="lazy"><figcaption>Screeding the culvert slab in a rock cut · Riyadh</figcaption></figure>
+      <figure><img src="img/fld-mesh.jpg" alt="Box culvert reinforcement mesh in a shored trench beside a road" loading="lazy"><figcaption>Culvert reinforcement before the pour · Riyadh</figcaption></figure>
+      <figure><img src="img/fld-night.jpg" alt="Night concrete pour in a long culvert trench lit by floodlights" loading="lazy"><figcaption>Night pour along a live road · Riyadh</figcaption></figure>
+      <figure><img src="img/egy-pumps.jpg" alt="Pump motors and motor control panels inside a lift station pump hall" loading="lazy"><figcaption>Pump hall with motors and MCC panels · Samanoud lift station</figcaption></figure>
+      <figure><img src="img/egy-genset.jpg" alt="Standby diesel generator under a canopy with its fuel tank" loading="lazy"><figcaption>Standby generator and fuel tank · Samanoud</figcaption></figure>
+      <figure><img src="img/egy-ps2.jpg" alt="Two-storey lift station building with a perimeter wall" loading="lazy"><figcaption>Completed lift station building · Samanoud villages</figcaption></figure>
+      <figure><img src="img/egy-elec.jpg" alt="Electrical and transformer rooms with steel doors" loading="lazy"><figcaption>Electrical and transformer rooms · Samanoud</figcaption></figure>
+      <figure><img src="img/sll-sign.jpg" alt="Project signage beside an open trench" loading="lazy"><figcaption>Network works, Ashoor &amp; Salalah, Mirbat, Taqah project</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="ch">CH 5+000 · Tools &amp; training</div>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="panel">
+        <h3>Software</h3>
+        <ul class="chips"><li>Primavera P6</li><li>AutoCAD</li><li>SewerCAD</li><li>MS Excel</li><li>MS Word</li><li>MS PowerPoint</li><li>Revit</li><li>Photoshop</li><li>Illustrator</li><li>Premiere Pro</li><li>After Effects</li></ul>
+      </div>
+      <div class="panel">
+        <h3>Training</h3>
+        <dl class="kv">
+          <div><dt>Project Management (PMP)</dt><dd>Preparation course</dd></div>
+          <div><dt>Primavera P6</dt><dd>Planning and scheduling course</dd></div>
+          <div><dt>AutoCAD 2D</dt><dd>Drafting course</dd></div>
+          <div><dt>Sewer network cleaning</dt><dd>National Organization for Potable Water &amp; Sanitary Drainage, Egypt</dd></div>
+        </dl>
+      </div>
+      <div class="panel">
+        <h3>Education &amp; languages</h3>
+        <dl class="kv">
+          <div><dt>B.Sc. Civil Engineering, 2006</dt><dd>Assiut University, Egypt</dd></div>
+          <div><dt>Arabic</dt><dd>Native</dd></div>
+          <div><dt>English</dt><dd>Fluent</dd></div>
+          <div><dt>Nationality</dt><dd>Egyptian · resident in Oman</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="sec-head" style="margin:0">
+        <div class="ch">CH 6+000 · Contact</div>
+        <h2>Let's talk about your next water project</h2>
+        <p style="color:#fff;opacity:.9;font-size:19px">Open to Project Manager, Construction Manager, Technical Manager and Project Director roles in water and wastewater across the GCC and Brunei. Notice period about one month.</p>
+      </div>
+      <ul class="c-list">
+        <li><div class="v"><small>Email</small><b>Hossam.H.Antar@gmail.com</b></div><button class="copy" type="button" data-copy="Hossam.H.Antar@gmail.com">Copy</button></li>
+        <li><div class="v"><small>Mobile · Oman</small><b>+968 9615 0804</b></div><button class="copy" type="button" data-copy="+96896150804">Copy</button></li>
+        <li><div class="v"><small>Mobile · Egypt</small><b>+20 109 120 0459</b></div><button class="copy" type="button" data-copy="+201091200459">Copy</button></li>
+        <li><div class="v"><small>LinkedIn</small><b>linkedin.com/in/hossam-a-4a002017a</b></div><a class="copy" href="https://www.linkedin.com/in/hossam-a-4a002017a" target="_blank" rel="noopener" style="text-decoration:none">Open</a></li>
+        <li><div class="v"><small>Location</small><b>Salalah, Dhofar, Oman</b></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<footer><div class="wrap">Hossam Hussein Antar · Senior Civil Engineer, Water Infrastructure</div></footer>
+
+<script>
+const P={"gharbia": [167.5, 96.7], "cairo": [172.4, 116.9], "riyadh": [484.5, 238.3], "shaqra": [455.6, 226.2], "sohar": [687.3, 246.3], "dhahirah": [683.4, 271], "muscat": [717.4, 264], "salalah": [634.3, 404.8], "mirbat": [646.4, 405.4]};
+const places=[
+ {id:'gharbia',name:'Gharbia, Egypt',yrs:'2007–2011 · 2016–2019',txt:'Sewerage for 25+ villages: Kafr El-Zayat, Samanoud, El-Mahalla',dx:-14,dy:-14,anchor:'end'},
+ {id:'cairo',name:'Cairo, Egypt',yrs:'2022–2024',txt:'Head office technical office, external tenders',dx:-14,dy:20,anchor:'end'},
+ {id:'riyadh',name:'Riyadh, Saudi Arabia',yrs:'2011–2016',txt:'Sewerage Contract 8, North Riyadh flood mitigation',dx:14,dy:18,anchor:'start'},
+ {id:'shaqra',name:'Shaqra, Saudi Arabia',yrs:'2013–2015',txt:'Sewerage Phase 6, Project Manager',dx:-14,dy:-12,anchor:'end'},
+ {id:'sohar',name:'Sohar, Oman',yrs:'2019–2022',txt:'Transmission system start: IWPP and SIR pump stations',dx:14,dy:-10,anchor:'start'},
+ {id:'dhahirah',name:'Al Dhahirah, Oman',yrs:'2019–2022',txt:'Transmission corridor, reservoirs, MPS-1 and MPS-2',dx:-14,dy:14,anchor:'end'},
+ {id:'muscat',name:'Muscat & Dakhiliyah, Oman',yrs:'2019',txt:'DN1400 reinforcement, pump and chlorination upgrades',dx:14,dy:16,anchor:'start'},
+ {id:'salalah',name:'Salalah, Oman',yrs:'2024–now',txt:'Ashoor pump station, Saadah & Sahlnout mains',dx:-14,dy:4,anchor:'end'},
+ {id:'mirbat',name:'Mirbat & Taqah, Oman',yrs:'2024–now',txt:'New 2 MG reservoir, DN600/DN900 mains, networks',dx:14,dy:18,anchor:'start'}
+];
+const g=document.getElementById('pins'),ul=document.getElementById('places'),NS='http://www.w3.org/2000/svg';
+const short={gharbia:'Gharbia',cairo:'Cairo',riyadh:'Riyadh',shaqra:'Shaqra',sohar:'Sohar',dhahirah:'Al Dhahirah',muscat:'Muscat',salalah:'Salalah',mirbat:'Mirbat'};
+places.forEach(p=>{
+  const [x,y]=P[p.id];const pin=document.createElementNS(NS,'g');pin.setAttribute('class','pin');pin.id='pin-'+p.id;
+  pin.innerHTML=`<circle class="halo" cx="${x}" cy="${y}" r="13"/><circle class="core" cx="${x}" cy="${y}" r="6.5"/><text x="${x+p.dx}" y="${y+p.dy}" text-anchor="${p.anchor}">${short[p.id]}</text>`;
+  g.appendChild(pin);
+  const li=document.createElement('li');li.innerHTML=`<button type="button" id="pl-${p.id}" aria-pressed="false"><b>${p.name}</b><span>${p.yrs} · ${p.txt}</span></button>`;ul.appendChild(li);
+  const b=li.firstChild;
+  const sel=()=>{document.querySelectorAll('.pin').forEach(e=>e.classList.remove('on'));document.querySelectorAll('.places button').forEach(e=>e.setAttribute('aria-pressed','false'));pin.classList.add('on');b.setAttribute('aria-pressed','true')};
+  b.addEventListener('click',sel);b.addEventListener('mouseenter',sel);pin.addEventListener('click',sel);pin.style.cursor='pointer';
+});
+document.getElementById('pin-salalah').classList.add('on');document.getElementById('pl-salalah').setAttribute('aria-pressed','true');
+document.querySelectorAll('.copy').forEach(btn=>btn.addEventListener('click',()=>{
+  const t=btn.dataset.copy,done=()=>{btn.textContent='Copied';setTimeout(()=>btn.textContent='Copy',1600)};
+  const sel=()=>{const r=document.createRange();r.selectNodeContents(btn.previousElementSibling.querySelector('b'));const s=getSelection();s.removeAllRanges();s.addRange(r);btn.textContent='Selected'};
+  try{navigator.clipboard.writeText(t).then(done,sel)}catch(e){sel()}
+}));
+</script>
+
+</body>
+</html>
